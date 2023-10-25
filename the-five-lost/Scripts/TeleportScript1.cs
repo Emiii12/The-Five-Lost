@@ -10,10 +10,20 @@ public class CasaEscena : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     { 
-        if (other.tag== "Player")
+
+        switch( this.tag )
         {
-        SceneManager.LoadScene(numeroEscena);
+            case "1":
+                Debug.Log("verificar con opcion 1");
+            break;
+            case "2":
+                Debug.Log("con opcion 2");
+            break;
         }
+        //if (other.tag == "player")
+        //{
+        // SceneManager.LoadScene(numeroEscena);
+        //}
     }
 
 }

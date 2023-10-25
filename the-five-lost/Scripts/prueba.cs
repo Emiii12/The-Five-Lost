@@ -7,7 +7,7 @@ using TMPro;
 
 public class DatabaseManager : MonoBehaviour
 {
-    private string phpURL = "http://localhost/prueba/comprobar.php";
+    private string phpURL = "http://localhost/PHP/comprobar.php";
 
     public TMP_Text preguntaText;
     public TMP_Text respuesta1Text;
@@ -21,6 +21,8 @@ public class DatabaseManager : MonoBehaviour
     private string respuestaSeleccionada;
 
     public Transform triggersParent;
+
+    public string[] respuestas = new string[4];
 
     private void Start()
     {
@@ -52,89 +54,107 @@ public class DatabaseManager : MonoBehaviour
                     string respuesta3 = lines[3].Replace("Respuesta: ", "");
                     string respuesta4 = lines[4].Replace("Respuesta: ", "");
 
+                    respuestas[0] = lines[1].Replace("Respuesta: ", "");
+                    respuestas[1] = lines[2].Replace("Respuesta: ", "");
+                    respuestas[2] = lines[3].Replace("Respuesta: ", "");
+                    respuestas[3] = lines[4].Replace("Respuesta: ", "");
+
+                    Debug.Log("Respuesta 1: " + respuestas[0]);
+                    Debug.Log("Respuesta 2: " + respuestas[1]);
+                    Debug.Log("Respuesta 3: " + respuestas[2]);
+                    Debug.Log("Respuesta 4: " + respuestas[3]);
+
+                    escorrectaText.text = respuestaCorrecta;
+                    
                     preguntaText.text = pregunta;
                     respuesta1Text.text = respuesta1;
                     respuesta2Text.text = respuesta2;
                     respuesta3Text.text = respuesta3;
                     respuesta4Text.text = respuesta4;
-                }
-            }
-        }
-    }
 
-    public IEnumerator CheckAnswer(string respuestaSeleccionada)
-    {
-        using (UnityWebRequest www = UnityWebRequest.Get(phpURL + "?questionID=" + currentQuestionID + "&respuesta=" + respuestaSeleccionada))
-        {
-            yield return www.SendWebRequest();
-
-            if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
-            {
-                Debug.LogError("Error: " + www.error);
-            }
-            else
-            {
-                string result = www.downloadHandler.text;
-                if (result == "Correcto")
-                {
-                    escorrectaText.text = "Respuesta Correcta";
-                    // Aquí puedes realizar cualquier acción que desees para manejar la respuesta correcta
-                }
-                else
-                {
-                    escorrectaText.text = "Respuesta Incorrecta";
-                    // Aquí puedes realizar cualquier acción que desees para manejar la respuesta incorrecta
-                }
-            }
-        }
-
-        // Cambiar a la siguiente pregunta
-        currentQuestionID++;
-        yield return new WaitForSeconds(2f);
-        StartCoroutine(GetDataFromDatabase());
-    }
-     
-        private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            escorrectaText.text = "Respuesta Correcta";
-            // Itera a través de los hijos del objeto "padre" (triggersParent)
-            foreach (Transform child in triggersParent)
-            {
-                
-                TMP_Text triggerText = child.GetComponentInChildren<TMP_Text>();
-
-                if (triggerText != null)
-                {
-                    
-                    // Comprueba si el jugador ha colisionado con un trigger hijo
-                    if (other.transform.IsChildOf(child))
-                    {
-                        // Asigna la respuesta correspondiente en base al TMP_Text del trigger
-                        if (triggerText.text == respuesta1Text.text)
-                        {
-                            respuestaSeleccionada = respuesta1Text.text;
-                        }
-                        else if (triggerText.text == respuesta2Text.text)
-                        {
-                            respuestaSeleccionada = respuesta2Text.text;
-                        }
-                        else if (triggerText.text == respuesta3Text.text)
-                        {
-                            respuestaSeleccionada = respuesta3Text.text;
-                        }
-                        else if (triggerText.text == respuesta4Text.text)
-                        {
-                            respuestaSeleccionada = respuesta4Text.text;
-                        }
-
-                        // Llama al método para comprobar la respuesta
-                        StartCoroutine(CheckAnswer(respuestaSeleccionada));
-                        break; // Sale del bucle una vez que se ha encontrado el trigger correcto.
-                    }
                 }
             }
         }
     }
 }
+
+
+
+
+
+    // public IEnumerator CheckAnswer(string respuestaSeleccionada)
+    // {
+    //     using (UnityWebRequest www = UnityWebRequest.Get(phpURL + "?questionID=" + currentQuestionID + "&respuesta=" + respuestaSeleccionada))
+    //     {
+    //         yield return www.SendWebRequest();
+
+    //         if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
+    //         {
+    //             Debug.LogError("Error: " + www.error);
+    //         }
+    //         else
+    //         {
+    //             string result = www.downloadHandler.text;
+    //             if (result == "Correcto")
+    //             {
+    //                 escorrectaText.text = "Respuesta Correcta";
+    //                 // Aquí puedes realizar cualquier acción que desees para manejar la respuesta correcta
+    //             }
+    //             else
+    //             {
+    //                 escorrectaText.text = "Respuesta Incorrecta";
+    //                 // Aquí puedes realizar cualquier acción que desees para manejar la respuesta incorrecta
+    //             }
+    //         }
+    //     }
+
+    //     // Cambiar a la siguiente pregunta
+    //     currentQuestionID++;
+    //     yield return new WaitForSeconds(2f);
+    //     StartCoroutine(GetDataFromDatabase());
+    // }
+     
+    //     private void OnTriggerEnter(Collider other)
+    // {
+    //     if (other.CompareTag("Player"))
+    //     {
+    //         escorrectaText.text = "Respuesta Correcta";
+    //         // Itera a través de los hijos del objeto "padre" (triggersParent)
+    //         foreach (Transform child in triggersParent)
+    //         {
+                
+    //             TMP_Text triggerText = child.GetComponentInChildren<TMP_Text>();
+
+    //             if (triggerText != null)
+    //             {
+                    
+    //                 // Comprueba si el jugador ha colisionado con un trigger hijo
+    //                 if (other.transform.IsChildOf(child))
+    //                 {
+    //                     // Asigna la respuesta correspondiente en base al TMP_Text del trigger
+    //                     if (triggerText.text == respuesta1Text.text)
+    //                     {
+    //                         respuestaSeleccionada = respuesta1Text.text;
+    //                     }
+    //                     else if (triggerText.text == respuesta2Text.text)
+    //                     {
+    //                         respuestaSeleccionada = respuesta2Text.text;
+    //                     }
+    //                     else if (triggerText.text == respuesta3Text.text)
+    //                     {
+    //                         respuestaSeleccionada = respuesta3Text.text;
+    //                     }
+    //                     else if (triggerText.text == respuesta4Text.text)
+    //                     {
+    //                         respuestaSeleccionada = respuesta4Text.text;
+    //                     }
+
+    //                     // Llama al método para comprobar la respuesta
+    //                     StartCoroutine(CheckAnswer(respuestaSeleccionada));
+    //                     break; // Sale del bucle una vez que se ha encontrado el trigger correcto.
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+// }

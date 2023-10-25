@@ -79,8 +79,9 @@ public class DataManager : MonoBehaviour
 // {
 //     public string respuestaTexto; // Asigna el texto de la respuesta en el Inspector
 
-//     private void OnTriggerEnter(Collider other)
-//     {
+    private void OnTriggerEnter(Collider other)
+     {
+        Debug.Log(  "hola:" + other.tag );
 //         if (other.CompareTag("Player")) // Asegúrate de tener una etiqueta "Player" en tu jugador
 //         {
 //             // Acción que ocurre al seleccionar esta respuesta
@@ -91,5 +92,5 @@ public class DataManager : MonoBehaviour
 //             }
 //         }
 //     }
-// }
+ }
 }
