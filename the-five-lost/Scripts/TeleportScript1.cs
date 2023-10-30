@@ -1,4 +1,4 @@
-zusing System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,13 +15,10 @@ public class CasaEscena : MonoBehaviour
         {
             case "1":
                 Debug.Log("verificar con opcion 1");
-                respuestaSeleccionada = respuesta 1;
                 
             break;
             case "2":
                 Debug.Log("con opcion 2");
-                respuestaSeleccionada = respuesta 2;
-                return respuestaSeleccionada;
             break;
             case "3":
                 Debug.Log("con opcion 3");
@@ -36,6 +33,5 @@ public class CasaEscena : MonoBehaviour
         //}
     }
 
-    comprobarRespuesta
 
 }

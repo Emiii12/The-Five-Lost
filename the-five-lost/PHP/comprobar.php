@@ -28,25 +28,19 @@ if ($result->num_rows > 0) {
 
     if ($respuestasResult->num_rows > 0) {
         while ($respuestaRow = $respuestasResult->fetch_assoc()) {
-            $respuestas[] = $respuestaRow; // Almacenamos cada respuesta en el arreglo
+            $respuestas[] = $respuestaRow["respuesta"];
         }
+
+        // Mezcla las respuestas aleatoriamente
+        shuffle($respuestas);
     }
 }
 
 // Mostramos las respuestas concatenando correctamente la información
 foreach ($respuestas as $respuesta) {
-    $data .= "Respuesta: " . $respuesta["respuesta"];
-    if ($respuesta["correcto"]) {
-        $data .= " (Correcta)";
-    }
+    $data .= "Respuesta: " . $respuesta;
     $data .= "\n";
 }
-
-// Buscamos la respuesta correcta y la marcamos
-$respuestaCorrecta = array_values(array_filter($respuestas, function ($respuesta) {
-    return $respuesta["correcto"];
-}))[0]["respuesta"];
-$data .= "RespuestaCorrecta: " . $respuestaCorrecta;
 
 echo $data;
 
