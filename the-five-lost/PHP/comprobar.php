@@ -108,7 +108,7 @@ if ($conn->connect_error) {
 // Ejemplo de consulta SELECT
 $sql = "SELECT pp.cod_pregunta, pp.pregunta, rp.respuesta, rp.correcto FROM pregunta_puerta pp
         INNER JOIN respuesta_pregunta rp ON pp.cod_pregunta = rp.cod_pregunta
-        WHERE tematica = 'Entretenimiento' ORDER BY RAND() LIMIT 1;";
+        WHERE tematica = 'Entretenimiento' and nivel='Nivel 1' ORDER BY RAND() LIMIT 1;";
 $result = $conn->query($sql);
 
 $data = "";
@@ -131,9 +131,6 @@ if ($result->num_rows > 0) {
 // Mostramos las respuestas concatenando correctamente la información
 foreach ($respuestas as $respuesta) {
     $data .= "Respuesta: " . $respuesta["respuesta"];
-    if ($respuesta["correcto"]) {
-        $data .= " (Correcta)";
-    }
     $data .= "\n";
 }
 
