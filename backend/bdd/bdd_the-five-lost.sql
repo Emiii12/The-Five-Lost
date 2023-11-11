@@ -44,60 +44,60 @@ INSERT INTO Categoria VALUES ("Videojuegos");
 --  CATEGORÍA: ENTRETENIMIENTO  -----
 
 --  NIVEL 1
-INSERT INTO Pregunta_Puerta VALUES (1, "Entretenimiento", "Nivel 1", "¿Quién es Brad Pitt?");
-INSERT INTO Pregunta_Puerta VALUES (2, "Entretenimiento", "Nivel 1", "¿Quién está detrás del traje de 'Iron Man'?");
-INSERT INTO Pregunta_Puerta VALUES (3, "Entretenimiento", "Nivel 1", "¿Cómo se les llama a los que prestan su voz para un personaje en otro idioma?");
-INSERT INTO Pregunta_Puerta VALUES (4, "Entretenimiento", "Nivel 1", "¿Cuál de las siguientes es una película?");
-INSERT INTO Pregunta_Puerta VALUES (5, "Entretenimiento", "Nivel 1", "¿Qué es un Oscar?");
+INSERT INTO Pregunta_Puerta VALUES (1, "Entretenimiento", "1", "¿Quién es Brad Pitt?");
+INSERT INTO Pregunta_Puerta VALUES (2, "Entretenimiento", "1", "¿Quién está detrás del traje de 'Iron Man'?");
+INSERT INTO Pregunta_Puerta VALUES (3, "Entretenimiento", "1", "¿Cómo se les llama a los que prestan su voz para un personaje en otro idioma?");
+INSERT INTO Pregunta_Puerta VALUES (4, "Entretenimiento", "1", "¿Cuál de las siguientes es una película?");
+INSERT INTO Pregunta_Puerta VALUES (5, "Entretenimiento", "1", "¿Qué es un Oscar?");
 
 --  NIVEL 2
-INSERT INTO Pregunta_Puerta VALUES (6, "Entretenimiento", "Nivel 2", "¿Quién es Jerry?");
-INSERT INTO Pregunta_Puerta VALUES (7, "Entretenimiento", "Nivel 2", "¿Qué personaje de anime usa un traje naranja?");
-INSERT INTO Pregunta_Puerta VALUES (8, "Entretenimiento", "Nivel 2", "¿En cuál de las siguientes películas el protagonista es un animal?");
-INSERT INTO Pregunta_Puerta VALUES (9, "Entretenimiento", "Nivel 2", "¿Qué significan las siglas UCM?");
-INSERT INTO Pregunta_Puerta VALUES (10, "Entretenimiento", "Nivel 2", "¿Qué era Woody?");
+INSERT INTO Pregunta_Puerta VALUES (6, "Entretenimiento", "2", "¿Quién es Jerry?");
+INSERT INTO Pregunta_Puerta VALUES (7, "Entretenimiento", "2", "¿Qué personaje de anime usa un traje naranja?");
+INSERT INTO Pregunta_Puerta VALUES (8, "Entretenimiento", "2", "¿En cuál de las siguientes películas el protagonista es un animal?");
+INSERT INTO Pregunta_Puerta VALUES (9, "Entretenimiento", "2", "¿Qué significan las siglas UCM?");
+INSERT INTO Pregunta_Puerta VALUES (10, "Entretenimiento", "2", "¿Qué era Woody?");
 
 --  NIVEL 3
-INSERT INTO Pregunta_Puerta VALUES (11, "Entretenimiento", "Nivel 3", "¿Cómo se llama el padre de Nemo?");
-INSERT INTO Pregunta_Puerta VALUES (12, "Entretenimiento", "Nivel 3", "¿Cuál de los siguientes videojuegos tuvo una adaptación?");
-INSERT INTO Pregunta_Puerta VALUES (13, "Entretenimiento", "Nivel 3", "¿De cuántas películas se compone la saga de 'Harry Potter'?");
-INSERT INTO Pregunta_Puerta VALUES (14, "Entretenimiento", "Nivel 3", "¿Cuál es la película más taquillera de la historia?");
-INSERT INTO Pregunta_Puerta VALUES (15, "Entretenimiento", "Nivel 3", "¿De qué país es Ricardo Darín?");
+INSERT INTO Pregunta_Puerta VALUES (11, "Entretenimiento", "3", "¿Cómo se llama el padre de Nemo?");
+INSERT INTO Pregunta_Puerta VALUES (12, "Entretenimiento", "3", "¿Cuál de los siguientes videojuegos tuvo una adaptación?");
+INSERT INTO Pregunta_Puerta VALUES (13, "Entretenimiento", "3", "¿De cuántas películas se compone la saga de 'Harry Potter'?");
+INSERT INTO Pregunta_Puerta VALUES (14, "Entretenimiento", "3", "¿Cuál es la película más taquillera de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (15, "Entretenimiento", "3", "¿De qué país es Ricardo Darín?");
 
 --  NIVEL 4
-INSERT INTO Pregunta_Puerta VALUES (16, "Entretenimiento", "Nivel 4", "¿Qué serie de los 90s protagonizó Will Smith?");
-INSERT INTO Pregunta_Puerta VALUES (17, "Entretenimiento", "Nivel 4", "¿Quién de los siguientes personajes no es de Marvel?");
-INSERT INTO Pregunta_Puerta VALUES (18, "Entretenimiento", "Nivel 4", "¿Qué canal de pago emitió la serie 'Juego de Tronos'?");
-INSERT INTO Pregunta_Puerta VALUES (19, "Entretenimiento", "Nivel 4", "¿Qué serie animada sigue las aventuras de un científico y su nieto?");
-INSERT INTO Pregunta_Puerta VALUES (20, "Entretenimiento", "Nivel 4", "¿Qué cuento para niños fue adaptado al cine?");
+INSERT INTO Pregunta_Puerta VALUES (16, "Entretenimiento", "4", "¿Qué serie de los 90s protagonizó Will Smith?");
+INSERT INTO Pregunta_Puerta VALUES (17, "Entretenimiento", "4", "¿Quién de los siguientes personajes no es de Marvel?");
+INSERT INTO Pregunta_Puerta VALUES (18, "Entretenimiento", "4", "¿Qué canal de pago emitió la serie 'Juego de Tronos'?");
+INSERT INTO Pregunta_Puerta VALUES (19, "Entretenimiento", "4", "¿Qué serie animada sigue las aventuras de un científico y su nieto?");
+INSERT INTO Pregunta_Puerta VALUES (20, "Entretenimiento", "4", "¿Qué cuento para niños fue adaptado al cine?");
 
 --  NIVEL 5
-INSERT INTO Pregunta_Puerta VALUES (21, "Entretenimiento", "Nivel 5", "¿Qué es Orgullo y Prejuicio?");
-INSERT INTO Pregunta_Puerta VALUES (22, "Entretenimiento", "Nivel 5", "¿Quién escribió el cuento 'Caperucita Roja'?");
-INSERT INTO Pregunta_Puerta VALUES (23, "Entretenimiento", "Nivel 5", "¿Qué serie se estrenó primero?");
-INSERT INTO Pregunta_Puerta VALUES (24, "Entretenimiento", "Nivel 5", "¿Cómo se llama la isla en la que habita King Kong?");
-INSERT INTO Pregunta_Puerta VALUES (25, "Entretenimiento", "Nivel 5", "¿Cuál es el libro más vendido de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (21, "Entretenimiento", "5", "¿Qué es Orgullo y Prejuicio?");
+INSERT INTO Pregunta_Puerta VALUES (22, "Entretenimiento", "5", "¿Quién escribió el cuento 'Caperucita Roja'?");
+INSERT INTO Pregunta_Puerta VALUES (23, "Entretenimiento", "5", "¿Qué serie se estrenó primero?");
+INSERT INTO Pregunta_Puerta VALUES (24, "Entretenimiento", "5", "¿Cómo se llama la isla en la que habita King Kong?");
+INSERT INTO Pregunta_Puerta VALUES (25, "Entretenimiento", "5", "¿Cuál es el libro más vendido de la historia?");
 
 --  NIVEL 6
-INSERT INTO Pregunta_Puerta VALUES (26, "Entretenimiento", "Nivel 6", "¿Cuál de las siguientes películas fue dirigida por Steven Spielberg?");
-INSERT INTO Pregunta_Puerta VALUES (27, "Entretenimiento", "Nivel 6", "¿Qué superhéroe vendió más comics?");
-INSERT INTO Pregunta_Puerta VALUES (28, "Entretenimiento", "Nivel 6", "¿En qué año se creó Netflix?");
-INSERT INTO Pregunta_Puerta VALUES (29, "Entretenimiento", "Nivel 6", "¿Qué director de cine recaudó más dinero? ");
-INSERT INTO Pregunta_Puerta VALUES (30, "Entretenimiento", "Nivel 6", "¿De qué país es la película 'El Secreto de Sus Ojos'?");
+INSERT INTO Pregunta_Puerta VALUES (26, "Entretenimiento", "6", "¿Cuál de las siguientes películas fue dirigida por Steven Spielberg?");
+INSERT INTO Pregunta_Puerta VALUES (27, "Entretenimiento", "6", "¿Qué superhéroe vendió más comics?");
+INSERT INTO Pregunta_Puerta VALUES (28, "Entretenimiento", "6", "¿En qué año se creó Netflix?");
+INSERT INTO Pregunta_Puerta VALUES (29, "Entretenimiento", "6", "¿Qué director de cine recaudó más dinero? ");
+INSERT INTO Pregunta_Puerta VALUES (30, "Entretenimiento", "6", "¿De qué país es la película 'El Secreto de Sus Ojos'?");
 
 --  NIVEL 7
-INSERT INTO Pregunta_Puerta VALUES (31, "Entretenimiento", "Nivel 7", "¿Cuál es el manga más vendido de la historia?");
-INSERT INTO Pregunta_Puerta VALUES (32, "Entretenimiento", "Nivel 7", "¿En qué año comenzó a emitirse la primera temporada de 'Los Simpson'?");
-INSERT INTO Pregunta_Puerta VALUES (33, "Entretenimiento", "Nivel 7", "¿Quién de los siguientes actores protagonizó un músical y fue nominado al Oscar?");
-INSERT INTO Pregunta_Puerta VALUES (34, "Entretenimiento", "Nivel 7", "¿Qué actor no interpretó a Batman en el cine?");
-INSERT INTO Pregunta_Puerta VALUES (35, "Entretenimiento", "Nivel 7", "¿Cuántos Oscar tiene Argentina?");
+INSERT INTO Pregunta_Puerta VALUES (31, "Entretenimiento", "7", "¿Cuál es el manga más vendido de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (32, "Entretenimiento", "7", "¿En qué año comenzó a emitirse la primera temporada de 'Los Simpson'?");
+INSERT INTO Pregunta_Puerta VALUES (33, "Entretenimiento", "7", "¿Quién de los siguientes actores protagonizó un músical y fue nominado al Oscar?");
+INSERT INTO Pregunta_Puerta VALUES (34, "Entretenimiento", "7", "¿Qué actor no interpretó a Batman en el cine?");
+INSERT INTO Pregunta_Puerta VALUES (35, "Entretenimiento", "7", "¿Cuántos Oscar tiene Argentina?");
 
 --  NIVEL 8
-INSERT INTO Pregunta_Puerta VALUES (36, "Entretenimiento", "Nivel 8", "¿Qué cantante hizo la banda sonora de la versión live action de El Rey Leon?");
-INSERT INTO Pregunta_Puerta VALUES (37, "Entretenimiento", "Nivel 8", "¿Cuál fue la primera película de Walt Disney?");
-INSERT INTO Pregunta_Puerta VALUES (38, "Entretenimiento", "Nivel 8", "¿Qué actor fue aplaudido durante 6 minutos seguidos?");
-INSERT INTO Pregunta_Puerta VALUES (39, "Entretenimiento", "Nivel 8", "¿Qué obra cinematográfica ganó más Oscar? ");
-INSERT INTO Pregunta_Puerta VALUES (40, "Entretenimiento", "Nivel 8", "¿Cuál es el país que más Oscar ganó sin incluir a Estados Unidos ni Reino Unido?");
+INSERT INTO Pregunta_Puerta VALUES (36, "Entretenimiento", "8", "¿Qué cantante hizo la banda sonora de la versión live action de El Rey Leon?");
+INSERT INTO Pregunta_Puerta VALUES (37, "Entretenimiento", "8", "¿Cuál fue la primera película de Walt Disney?");
+INSERT INTO Pregunta_Puerta VALUES (38, "Entretenimiento", "8", "¿Qué actor fue aplaudido durante 6 minutos seguidos?");
+INSERT INTO Pregunta_Puerta VALUES (39, "Entretenimiento", "8", "¿Qué obra cinematográfica ganó más Oscar? ");
+INSERT INTO Pregunta_Puerta VALUES (40, "Entretenimiento", "8", "¿Cuál es el país que más Oscar ganó sin incluir a Estados Unidos ni Reino Unido?");
 
 
 
@@ -106,60 +106,60 @@ INSERT INTO Pregunta_Puerta VALUES (40, "Entretenimiento", "Nivel 8", "¿Cuál e
 --  CATEGORÍA: MÚSICA  -----
 
 --  NIVEL 1 
-INSERT INTO Pregunta_Puerta VALUES (41, "Música", "Nivel 1", "¿Cual de los siguientes es musico?");
-INSERT INTO Pregunta_Puerta VALUES (42, "Música", "Nivel 1", "¿Cual de los siguientes no es musico?");
-INSERT INTO Pregunta_Puerta VALUES (43, "Música", "Nivel 1", "¿Qué artista musical es argentino?");
-INSERT INTO Pregunta_Puerta VALUES (44, "Música", "Nivel 1", "¿Cuál de las siguientes es una nota musical?");
-INSERT INTO Pregunta_Puerta VALUES (45, "Música", "Nivel 1", "¿Cuál de estas es una canción?");
+INSERT INTO Pregunta_Puerta VALUES (41, "Música", "1", "¿Cual de los siguientes es musico?");
+INSERT INTO Pregunta_Puerta VALUES (42, "Música", "1", "¿Cual de los siguientes no es musico?");
+INSERT INTO Pregunta_Puerta VALUES (43, "Música", "1", "¿Qué artista musical es argentino?");
+INSERT INTO Pregunta_Puerta VALUES (44, "Música", "1", "¿Cuál de las siguientes es una nota musical?");
+INSERT INTO Pregunta_Puerta VALUES (45, "Música", "1", "¿Cuál de estas es una canción?");
 
 --  NIVEL 2 
-INSERT INTO Pregunta_Puerta VALUES (46, "Música", "Nivel 2", "¿Cuál es un instrumento de cuerda?");
-INSERT INTO Pregunta_Puerta VALUES (47, "Música", "Nivel 2", "¿Quién es Bizarrap?");
-INSERT INTO Pregunta_Puerta VALUES (48, "Música", "Nivel 2", "¿Cuál de los siguientes NO es un disco?");
-INSERT INTO Pregunta_Puerta VALUES (49, "Música", "Nivel 2", "¿Cuál de las siguientes es una artista musical?");
-INSERT INTO Pregunta_Puerta VALUES (50, "Música", "Nivel 2", "¿Cuál de los siguientes músicos salió de una serie infantil?");
+INSERT INTO Pregunta_Puerta VALUES (46, "Música", "2", "¿Cuál es un instrumento de cuerda?");
+INSERT INTO Pregunta_Puerta VALUES (47, "Música", "2", "¿Quién es Bizarrap?");
+INSERT INTO Pregunta_Puerta VALUES (48, "Música", "2", "¿Cuál de los siguientes NO es un disco?");
+INSERT INTO Pregunta_Puerta VALUES (49, "Música", "2", "¿Cuál de las siguientes es una artista musical?");
+INSERT INTO Pregunta_Puerta VALUES (50, "Música", "2", "¿Cuál de los siguientes músicos salió de una serie infantil?");
 
 --  NIVEL 3 
-INSERT INTO Pregunta_Puerta VALUES (51, "Música", "Nivel 3", "¿Cuál es la canción más escuchada históricamente?");
-INSERT INTO Pregunta_Puerta VALUES (52, "Música", "Nivel 3", "¿Cuál de los siguientes es rapero?");
-INSERT INTO Pregunta_Puerta VALUES (53, "Música", "Nivel 3", "¿Qué artista musical a su vez mantuvo una carrera actoral?");
-INSERT INTO Pregunta_Puerta VALUES (54, "Música", "Nivel 3", "¿Cuál de los siguientes es un artista español?");
-INSERT INTO Pregunta_Puerta VALUES (55, "Música", "Nivel 3", "¿Cuál de los siguientes NO es un genero musical?");
+INSERT INTO Pregunta_Puerta VALUES (51, "Música", "3", "¿Cuál es la canción más escuchada históricamente?");
+INSERT INTO Pregunta_Puerta VALUES (52, "Música", "3", "¿Cuál de los siguientes es rapero?");
+INSERT INTO Pregunta_Puerta VALUES (53, "Música", "3", "¿Qué artista musical a su vez mantuvo una carrera actoral?");
+INSERT INTO Pregunta_Puerta VALUES (54, "Música", "3", "¿Cuál de los siguientes es un artista español?");
+INSERT INTO Pregunta_Puerta VALUES (55, "Música", "3", "¿Cuál de los siguientes NO es un genero musical?");
 
 --  NIVEL 4 
-INSERT INTO Pregunta_Puerta VALUES (56, "Música", "Nivel 4", "¿Cuál de los siguientes es un artista emergente?");
-INSERT INTO Pregunta_Puerta VALUES (57, "Música", "Nivel 4", "¿Cuál de las siguientes canciones es originalmente de Bad Bunny?");
-INSERT INTO Pregunta_Puerta VALUES (58, "Música", "Nivel 4", "¿De qué artista es la canción Bohemian Rhapsody?");
-INSERT INTO Pregunta_Puerta VALUES (59, "Música", "Nivel 4", "¿De qué artista es la canción Billie jean?");
-INSERT INTO Pregunta_Puerta VALUES (60, "Música", "Nivel 4", "¿Cuál de las siguientes no es una banda musical?");
+INSERT INTO Pregunta_Puerta VALUES (56, "Música", "4", "¿Cuál de los siguientes es un artista emergente?");
+INSERT INTO Pregunta_Puerta VALUES (57, "Música", "4", "¿Cuál de las siguientes canciones es originalmente de Bad Bunny?");
+INSERT INTO Pregunta_Puerta VALUES (58, "Música", "4", "¿De qué artista es la canción Bohemian Rhapsody?");
+INSERT INTO Pregunta_Puerta VALUES (59, "Música", "4", "¿De qué artista es la canción Billie jean?");
+INSERT INTO Pregunta_Puerta VALUES (60, "Música", "4", "¿Cuál de las siguientes no es una banda musical?");
 
 --  NIVEL 5 
-INSERT INTO Pregunta_Puerta VALUES (61, "Música", "Nivel 5", "¿Qué artista se dio a conocer gracias a sus 'Sessions'?");
-INSERT INTO Pregunta_Puerta VALUES (62, "Música", "Nivel 5", "¿En cuál de los siguientes Géneros es pionera la Argentina?");
-INSERT INTO Pregunta_Puerta VALUES (63, "Música", "Nivel 5", "¿En cuál de los siguientes Géneros es pionera España?");
-INSERT INTO Pregunta_Puerta VALUES (64, "Música", "Nivel 5", "¿Dónde fue descubierto Justin Bieber?");
-INSERT INTO Pregunta_Puerta VALUES (65, "Música", "Nivel 5", "¿Cuál es la famosa banda de K-pop?");
+INSERT INTO Pregunta_Puerta VALUES (61, "Música", "5", "¿Qué artista se dio a conocer gracias a sus 'Sessions'?");
+INSERT INTO Pregunta_Puerta VALUES (62, "Música", "5", "¿En cuál de los siguientes Géneros es pionera la Argentina?");
+INSERT INTO Pregunta_Puerta VALUES (63, "Música", "5", "¿En cuál de los siguientes Géneros es pionera España?");
+INSERT INTO Pregunta_Puerta VALUES (64, "Música", "5", "¿Dónde fue descubierto Justin Bieber?");
+INSERT INTO Pregunta_Puerta VALUES (65, "Música", "5", "¿Cuál es la famosa banda de K-pop?");
 
 --  NIVEL 6 
-INSERT INTO Pregunta_Puerta VALUES (66, "Música", "Nivel 6", "¿Quién es llamado el rey del rock?");
-INSERT INTO Pregunta_Puerta VALUES (67, "Música", "Nivel 6", "Continúe la siguiente canción de Air Bag: Yo sé que algunas veces…");
-INSERT INTO Pregunta_Puerta VALUES (68, "Música", "Nivel 6", "¿Con quien hace Justin Bieber la canción ‘Stay’?");
-INSERT INTO Pregunta_Puerta VALUES (69, "Música", "Nivel 6", "¿De qué arista es la canción 'La Chica Del Bikini Azul'?");
-INSERT INTO Pregunta_Puerta VALUES (70, "Música", "Nivel 6", "¿Qué pasa en el videoclip de Michael Jackson en ‘Thriller’?");
+INSERT INTO Pregunta_Puerta VALUES (66, "Música", "6", "¿Quién es llamado el rey del rock?");
+INSERT INTO Pregunta_Puerta VALUES (67, "Música", "6", "Continúe la siguiente canción de Air Bag: Yo sé que algunas veces…");
+INSERT INTO Pregunta_Puerta VALUES (68, "Música", "6", "¿Con quien hace Justin Bieber la canción ‘Stay’?");
+INSERT INTO Pregunta_Puerta VALUES (69, "Música", "6", "¿De qué arista es la canción 'La Chica Del Bikini Azul'?");
+INSERT INTO Pregunta_Puerta VALUES (70, "Música", "6", "¿Qué pasa en el videoclip de Michael Jackson en ‘Thriller’?");
 
 --  NIVEL 7 
-INSERT INTO Pregunta_Puerta VALUES (71, "Música", "Nivel 7", "¿Cuántas 'Sessions' tiene el productor bizarrap actualmente?");
-INSERT INTO Pregunta_Puerta VALUES (72, "Música", "Nivel 7", "¿Cuándo nació el rap?");
-INSERT INTO Pregunta_Puerta VALUES (73, "Música", "Nivel 7", "¿Cuándo nace el reggaetón?");
-INSERT INTO Pregunta_Puerta VALUES (74, "Música", "Nivel 7", "¿De donde es nativo Luis Miguel?");
-INSERT INTO Pregunta_Puerta VALUES (75, "Música", "Nivel 7", "¿En qué época nace ‘Ludwig van Beethoven’?");
+INSERT INTO Pregunta_Puerta VALUES (71, "Música", "7", "¿Cuántas 'Sessions' tiene el productor bizarrap actualmente?");
+INSERT INTO Pregunta_Puerta VALUES (72, "Música", "7", "¿Cuándo nació el rap?");
+INSERT INTO Pregunta_Puerta VALUES (73, "Música", "7", "¿Cuándo nace el reggaetón?");
+INSERT INTO Pregunta_Puerta VALUES (74, "Música", "7", "¿De donde es nativo Luis Miguel?");
+INSERT INTO Pregunta_Puerta VALUES (75, "Música", "7", "¿En qué época nace ‘Ludwig van Beethoven’?");
 
 --  NIVEL 8 
-INSERT INTO Pregunta_Puerta VALUES (76, "Música", "Nivel 8", "¿Quién es el artista mas escuchado del mundo en Spotify?");
-INSERT INTO Pregunta_Puerta VALUES (77, "Música", "Nivel 8", "¿Qué artista tiene el récord de Grammys ganados?");
-INSERT INTO Pregunta_Puerta VALUES (78, "Música", "Nivel 8", "¿A qué año se remontan los primeros instrumentos musicales de la humanidad?");
-INSERT INTO Pregunta_Puerta VALUES (79, "Música", "Nivel 8", "¿A qué edad fallece Michael Jackson?");
-INSERT INTO Pregunta_Puerta VALUES (80, "Música", "Nivel 8", "¿En que año se separan los Beatles?");
+INSERT INTO Pregunta_Puerta VALUES (76, "Música", "8", "¿Quién es el artista mas escuchado del mundo en Spotify?");
+INSERT INTO Pregunta_Puerta VALUES (77, "Música", "8", "¿Qué artista tiene el récord de Grammys ganados?");
+INSERT INTO Pregunta_Puerta VALUES (78, "Música", "8", "¿A qué año se remontan los primeros instrumentos musicales de la humanidad?");
+INSERT INTO Pregunta_Puerta VALUES (79, "Música", "8", "¿A qué edad fallece Michael Jackson?");
+INSERT INTO Pregunta_Puerta VALUES (80, "Música", "8", "¿En que año se separan los Beatles?");
 
 
 
@@ -168,60 +168,60 @@ INSERT INTO Pregunta_Puerta VALUES (80, "Música", "Nivel 8", "¿En que año se 
 --  CATEGORÍA: CULTURA GENERAL  -----
 
 --  NIVEL 1 
-INSERT INTO Pregunta_Puerta VALUES (81, "Cultura General", "Nivel 1", "¿En qué país se ubica el Coliseo Romano?");
-INSERT INTO Pregunta_Puerta VALUES (82, "Cultura General", "Nivel 1", "¿En qué país se ubica el El Obelisco?");
-INSERT INTO Pregunta_Puerta VALUES (83, "Cultura General", "Nivel 1", "¿En qué país se ubica el La Torre Eiffel?");
-INSERT INTO Pregunta_Puerta VALUES (84, "Cultura General", "Nivel 1", "¿En qué país se ubica el Cristo Redentor?");
-INSERT INTO Pregunta_Puerta VALUES (85, "Cultura General", "Nivel 1", "¿En qué país se ubica la Estatua de la libertad?");
+INSERT INTO Pregunta_Puerta VALUES (81, "Cultura General", "1", "¿En qué país se ubica el Coliseo Romano?");
+INSERT INTO Pregunta_Puerta VALUES (82, "Cultura General", "1", "¿En qué país se ubica el El Obelisco?");
+INSERT INTO Pregunta_Puerta VALUES (83, "Cultura General", "1", "¿En qué país se ubica el La Torre Eiffel?");
+INSERT INTO Pregunta_Puerta VALUES (84, "Cultura General", "1", "¿En qué país se ubica el Cristo Redentor?");
+INSERT INTO Pregunta_Puerta VALUES (85, "Cultura General", "1", "¿En qué país se ubica la Estatua de la libertad?");
 
 --  NIVEL 2 
-INSERT INTO Pregunta_Puerta VALUES (86, "Cultura General", "Nivel 2", "¿Cuál es el idioma con más hablantes nativos?");
-INSERT INTO Pregunta_Puerta VALUES (87, "Cultura General", "Nivel 2", "¿Dónde se originó la famosa comida Pizza?");
-INSERT INTO Pregunta_Puerta VALUES (88, "Cultura General", "Nivel 2", "¿Dónde se originó la famosa comida Asado?");
-INSERT INTO Pregunta_Puerta VALUES (89, "Cultura General", "Nivel 2", "¿Dónde se originó la famosa comida Ceviche?");
-INSERT INTO Pregunta_Puerta VALUES (90, "Cultura General", "Nivel 2", "¿Dónde se originó la famosa comida Paella?");
+INSERT INTO Pregunta_Puerta VALUES (86, "Cultura General", "2", "¿Cuál es el idioma con más hablantes nativos?");
+INSERT INTO Pregunta_Puerta VALUES (87, "Cultura General", "2", "¿Dónde se originó la famosa comida Pizza?");
+INSERT INTO Pregunta_Puerta VALUES (88, "Cultura General", "2", "¿Dónde se originó la famosa comida Asado?");
+INSERT INTO Pregunta_Puerta VALUES (89, "Cultura General", "2", "¿Dónde se originó la famosa comida Ceviche?");
+INSERT INTO Pregunta_Puerta VALUES (90, "Cultura General", "2", "¿Dónde se originó la famosa comida Paella?");
 
 --  NIVEL 3 
-INSERT INTO Pregunta_Puerta VALUES (91, "Cultura General", "Nivel 3", "¿En qué país se habla la lengua guaraní?");
-INSERT INTO Pregunta_Puerta VALUES (92, "Cultura General", "Nivel 3", "¿Cuál es el océano más grande del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (93, "Cultura General", "Nivel 3", "¿Cuál es el lugar más frío de la tierra?");
-INSERT INTO Pregunta_Puerta VALUES (94, "Cultura General", "Nivel 3", "¿Cuál es el rio mas largo de la Tierra?");
-INSERT INTO Pregunta_Puerta VALUES (95, "Cultura General", "Nivel 3", "¿Qué elemento de la tabla periódica tiene como símbolo H2o?");
+INSERT INTO Pregunta_Puerta VALUES (91, "Cultura General", "3", "¿En qué país se habla la lengua guaraní?");
+INSERT INTO Pregunta_Puerta VALUES (92, "Cultura General", "3", "¿Cuál es el océano más grande del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (93, "Cultura General", "3", "¿Cuál es el lugar más frío de la tierra?");
+INSERT INTO Pregunta_Puerta VALUES (94, "Cultura General", "3", "¿Cuál es el rio mas largo de la Tierra?");
+INSERT INTO Pregunta_Puerta VALUES (95, "Cultura General", "3", "¿Qué elemento de la tabla periódica tiene como símbolo H2o?");
 
 --  NIVEL 4 
-INSERT INTO Pregunta_Puerta VALUES (96, "Cultura General", "Nivel 4", "¿A quién se le considera como “Libertador”?");
-INSERT INTO Pregunta_Puerta VALUES (97, "Cultura General", "Nivel 4", "¿Cada cuantos años se genera un año bisiesto?");
-INSERT INTO Pregunta_Puerta VALUES (98, "Cultura General", "Nivel 4", "¿Cuántos huesos hay en el cuerpo humano?");
-INSERT INTO Pregunta_Puerta VALUES (99, "Cultura General", "Nivel 4", "¿Cómo se llama el proceso por el cual las plantas se alimentan?");
-INSERT INTO Pregunta_Puerta VALUES (100, "Cultura General", "Nivel 4", "¿Cuál es el animal más grande de la Tierra?");
+INSERT INTO Pregunta_Puerta VALUES (96, "Cultura General", "4", "¿A quién se le considera como “Libertador”?");
+INSERT INTO Pregunta_Puerta VALUES (97, "Cultura General", "4", "¿Cada cuantos años se genera un año bisiesto?");
+INSERT INTO Pregunta_Puerta VALUES (98, "Cultura General", "4", "¿Cuántos huesos hay en el cuerpo humano?");
+INSERT INTO Pregunta_Puerta VALUES (99, "Cultura General", "4", "¿Cómo se llama el proceso por el cual las plantas se alimentan?");
+INSERT INTO Pregunta_Puerta VALUES (100, "Cultura General", "4", "¿Cuál es el animal más grande de la Tierra?");
 
 --  NIVEL 5 
-INSERT INTO Pregunta_Puerta VALUES (101, "Cultura General", "Nivel 5", "¿En qué año se produjo la Revolución Francesa?");
-INSERT INTO Pregunta_Puerta VALUES (102, "Cultura General", "Nivel 5", "¿Quién pintó “La última cena”?");
-INSERT INTO Pregunta_Puerta VALUES (103, "Cultura General", "Nivel 5", "¿Quién pintó “La Mona Lisa”?");
-INSERT INTO Pregunta_Puerta VALUES (104, "Cultura General", "Nivel 5", "¿Quién pintó “La creación de Adán”?");
-INSERT INTO Pregunta_Puerta VALUES (105, "Cultura General", "Nivel 5", "¿Quién componía música siendo sordo?");
+INSERT INTO Pregunta_Puerta VALUES (101, "Cultura General", "5", "¿En qué año se produjo la Revolución Francesa?");
+INSERT INTO Pregunta_Puerta VALUES (102, "Cultura General", "5", "¿Quién pintó “La última cena”?");
+INSERT INTO Pregunta_Puerta VALUES (103, "Cultura General", "5", "¿Quién pintó “La Mona Lisa”?");
+INSERT INTO Pregunta_Puerta VALUES (104, "Cultura General", "5", "¿Quién pintó “La creación de Adán”?");
+INSERT INTO Pregunta_Puerta VALUES (105, "Cultura General", "5", "¿Quién componía música siendo sordo?");
 
 --  NIVEL 6 
-INSERT INTO Pregunta_Puerta VALUES (106, "Cultura General", "Nivel 6", "¿Cuándo se extinguieron los dinosaurios?");
-INSERT INTO Pregunta_Puerta VALUES (107, "Cultura General", "Nivel 6", "¿En qué país se usó la primera bomba atómica?");
-INSERT INTO Pregunta_Puerta VALUES (108, "Cultura General", "Nivel 6", "¿En qué año viajó al espacio el primer ser humano?");
-INSERT INTO Pregunta_Puerta VALUES (109, "Cultura General", "Nivel 6", "¿En qué año cayó el muro de Berlín?");
-INSERT INTO Pregunta_Puerta VALUES (110, "Cultura General", "Nivel 6", "¿Cuál es el país más grande del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (106, "Cultura General", "6", "¿Cuándo se extinguieron los dinosaurios?");
+INSERT INTO Pregunta_Puerta VALUES (107, "Cultura General", "6", "¿En qué país se usó la primera bomba atómica?");
+INSERT INTO Pregunta_Puerta VALUES (108, "Cultura General", "6", "¿En qué año viajó al espacio el primer ser humano?");
+INSERT INTO Pregunta_Puerta VALUES (109, "Cultura General", "6", "¿En qué año cayó el muro de Berlín?");
+INSERT INTO Pregunta_Puerta VALUES (110, "Cultura General", "6", "¿Cuál es el país más grande del mundo?");
 
 --  NIVEL 7 
-INSERT INTO Pregunta_Puerta VALUES (111, "Cultura General", "Nivel 7", "¿Cuánto duró “La Guerra de los Cien Años”?");
-INSERT INTO Pregunta_Puerta VALUES (112, "Cultura General", "Nivel 7", "¿Cuál es país más poblado de la Tierra?");
-INSERT INTO Pregunta_Puerta VALUES (113, "Cultura General", "Nivel 7", "¿Cuál fue la primera presidente mujer del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (114, "Cultura General", "Nivel 7", "¿Cuál es la montaña más alta del planeta?");
-INSERT INTO Pregunta_Puerta VALUES (115, "Cultura General", "Nivel 7", "¿Cuál es el libro más vendido en el mundo después de la Biblia?");
+INSERT INTO Pregunta_Puerta VALUES (111, "Cultura General", "7", "¿Cuánto duró “La Guerra de los Cien Años”?");
+INSERT INTO Pregunta_Puerta VALUES (112, "Cultura General", "7", "¿Cuál es país más poblado de la Tierra?");
+INSERT INTO Pregunta_Puerta VALUES (113, "Cultura General", "7", "¿Cuál fue la primera presidente mujer del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (114, "Cultura General", "7", "¿Cuál es la montaña más alta del planeta?");
+INSERT INTO Pregunta_Puerta VALUES (115, "Cultura General", "7", "¿Cuál es el libro más vendido en el mundo después de la Biblia?");
 
 --  NIVEL 8 
-INSERT INTO Pregunta_Puerta VALUES (116, "Cultura General", "Nivel 8", "¿Cada cuántos años pasa por la tierra el cometa Halley?");
-INSERT INTO Pregunta_Puerta VALUES (117, "Cultura General", "Nivel 8", "¿Quién fue el auténtico padre de la electricidad?");
-INSERT INTO Pregunta_Puerta VALUES (118, "Cultura General", "Nivel 8", "¿Cuál es el edificio más alto del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (119, "Cultura General", "Nivel 8", "¿Cuál es el país con menos habitantes del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (120, "Cultura General", "Nivel 8", "¿Cuál es el animal que más muertes provoca cada año?");
+INSERT INTO Pregunta_Puerta VALUES (116, "Cultura General", "8", "¿Cada cuántos años pasa por la tierra el cometa Halley?");
+INSERT INTO Pregunta_Puerta VALUES (117, "Cultura General", "8", "¿Quién fue el auténtico padre de la electricidad?");
+INSERT INTO Pregunta_Puerta VALUES (118, "Cultura General", "8", "¿Cuál es el edificio más alto del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (119, "Cultura General", "8", "¿Cuál es el país con menos habitantes del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (120, "Cultura General", "8", "¿Cuál es el animal que más muertes provoca cada año?");
 
 
 
@@ -230,60 +230,60 @@ INSERT INTO Pregunta_Puerta VALUES (120, "Cultura General", "Nivel 8", "¿Cuál 
 --  CATEGORÍA: DEPORTE  -----
 
 --  NIVEL 1 
-INSERT INTO Pregunta_Puerta VALUES (121, "Deporte", "Nivel 1", "¿De qué color es la pelota clásica de basket?");
-INSERT INTO Pregunta_Puerta VALUES (122, "Deporte", "Nivel 1", "¿En qué deportes se usa una raqueta?");
-INSERT INTO Pregunta_Puerta VALUES (123, "Deporte", "Nivel 1", "¿Qué deporte juega Lionel Messi?");
-INSERT INTO Pregunta_Puerta VALUES (124, "Deporte", "Nivel 1", "¿Por cuál deporte es conocido Michael Jordan?");
-INSERT INTO Pregunta_Puerta VALUES (125, "Deporte", "Nivel 1", "¿En cuál de estos deportes hay una red en medio de la cancha?");
+INSERT INTO Pregunta_Puerta VALUES (121, "Deporte", "1", "¿De qué color es la pelota clásica de basket?");
+INSERT INTO Pregunta_Puerta VALUES (122, "Deporte", "1", "¿En qué deportes se usa una raqueta?");
+INSERT INTO Pregunta_Puerta VALUES (123, "Deporte", "1", "¿Qué deporte juega Lionel Messi?");
+INSERT INTO Pregunta_Puerta VALUES (124, "Deporte", "1", "¿Por cuál deporte es conocido Michael Jordan?");
+INSERT INTO Pregunta_Puerta VALUES (125, "Deporte", "1", "¿En cuál de estos deportes hay una red en medio de la cancha?");
 
 --  NIVEL 2 
-INSERT INTO Pregunta_Puerta VALUES (126, "Deporte", "Nivel 2", "¿Cuál es el equipo del futbol europeo más famoso del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (127, "Deporte", "Nivel 2", "¿Quien es corredor mas rapido del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (128, "Deporte", "Nivel 2", "¿Cuál es el nombre de la liga estadounidense de basket?");
-INSERT INTO Pregunta_Puerta VALUES (129, "Deporte", "Nivel 2", "¿Cuáles son los 2 equipos del futbol argentino mas conocidos?");
-INSERT INTO Pregunta_Puerta VALUES (130, "Deporte", "Nivel 2", "¿Cuántos pasos se puede dar en Handball sin picar el balón?");
+INSERT INTO Pregunta_Puerta VALUES (126, "Deporte", "2", "¿Cuál es el equipo del futbol europeo más famoso del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (127, "Deporte", "2", "¿Quien es corredor mas rapido del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (128, "Deporte", "2", "¿Cuál es el nombre de la liga estadounidense de basket?");
+INSERT INTO Pregunta_Puerta VALUES (129, "Deporte", "2", "¿Cuáles son los 2 equipos del futbol argentino mas conocidos?");
+INSERT INTO Pregunta_Puerta VALUES (130, "Deporte", "2", "¿Cuántos pasos se puede dar en Handball sin picar el balón?");
 
 --  NIVEL 3 
-INSERT INTO Pregunta_Puerta VALUES (131, "Deporte", "Nivel 3", "¿Qué deporte hace Connor McGregor?");
-INSERT INTO Pregunta_Puerta VALUES (132, "Deporte", "Nivel 3", "¿Cuál de estas personas es un tenista?");
-INSERT INTO Pregunta_Puerta VALUES (133, "Deporte", "Nivel 3", "¿De qué pais es el famoso exbasquetbolista Manuel Ginobili?");
-INSERT INTO Pregunta_Puerta VALUES (134, "Deporte", "Nivel 3", "¿Con qué partes del cuerpo se puedo jugar al voley?");
-INSERT INTO Pregunta_Puerta VALUES (135, "Deporte", "Nivel 3", "¿Dónde se jugó el último mundial de Futbol 2022?");
+INSERT INTO Pregunta_Puerta VALUES (131, "Deporte", "3", "¿Qué deporte hace Connor McGregor?");
+INSERT INTO Pregunta_Puerta VALUES (132, "Deporte", "3", "¿Cuál de estas personas es un tenista?");
+INSERT INTO Pregunta_Puerta VALUES (133, "Deporte", "3", "¿De qué pais es el famoso exbasquetbolista Manuel Ginobili?");
+INSERT INTO Pregunta_Puerta VALUES (134, "Deporte", "3", "¿Con qué partes del cuerpo se puedo jugar al voley?");
+INSERT INTO Pregunta_Puerta VALUES (135, "Deporte", "3", "¿Dónde se jugó el último mundial de Futbol 2022?");
 
 --  NIVEL 4 
-INSERT INTO Pregunta_Puerta VALUES (136, "Deporte", "Nivel 4", "¿De qué pais es el jugador de futbol Dani Alves?");
-INSERT INTO Pregunta_Puerta VALUES (137, "Deporte", "Nivel 4", "¿Cuantos pasos sin picar el balon se pueden hacer en el Basket?");
-INSERT INTO Pregunta_Puerta VALUES (138, "Deporte", "Nivel 4", "¿Cuánto mide la cancha de voley?");
-INSERT INTO Pregunta_Puerta VALUES (139, "Deporte", "Nivel 4", "¿Cuántas piezas hay en el ajedrez?");
-INSERT INTO Pregunta_Puerta VALUES (140, "Deporte", "Nivel 4", "¿Cuatos años tiene Rafa Nadal?");
+INSERT INTO Pregunta_Puerta VALUES (136, "Deporte", "4", "¿De qué pais es el jugador de futbol Dani Alves?");
+INSERT INTO Pregunta_Puerta VALUES (137, "Deporte", "4", "¿Cuantos pasos sin picar el balon se pueden hacer en el Basket?");
+INSERT INTO Pregunta_Puerta VALUES (138, "Deporte", "4", "¿Cuánto mide la cancha de voley?");
+INSERT INTO Pregunta_Puerta VALUES (139, "Deporte", "4", "¿Cuántas piezas hay en el ajedrez?");
+INSERT INTO Pregunta_Puerta VALUES (140, "Deporte", "4", "¿Cuatos años tiene Rafa Nadal?");
 
 --  NIVEL 5 
-INSERT INTO Pregunta_Puerta VALUES (141, "Deporte", "Nivel 5", "¿En qué años salio campeon del mundial de futbol la seleccion Argentina?");
-INSERT INTO Pregunta_Puerta VALUES (142, "Deporte", "Nivel 5", "¿Cuál es el maximo anotador de la NBA?");
-INSERT INTO Pregunta_Puerta VALUES (143, "Deporte", "Nivel 5", "¿Cuál es el equipo con más Copas Libertadores?");
-INSERT INTO Pregunta_Puerta VALUES (144, "Deporte", "Nivel 5", "¿Cuál es el apellido del famoso boxeador apodado como 'El Chino'?");
-INSERT INTO Pregunta_Puerta VALUES (145, "Deporte", "Nivel 5", "¿En cuál de estas artes marciales se puede usar todo el cuerpo?");
+INSERT INTO Pregunta_Puerta VALUES (141, "Deporte", "5", "¿En qué años salio campeon del mundial de futbol la seleccion Argentina?");
+INSERT INTO Pregunta_Puerta VALUES (142, "Deporte", "5", "¿Cuál es el maximo anotador de la NBA?");
+INSERT INTO Pregunta_Puerta VALUES (143, "Deporte", "5", "¿Cuál es el equipo con más Copas Libertadores?");
+INSERT INTO Pregunta_Puerta VALUES (144, "Deporte", "5", "¿Cuál es el apellido del famoso boxeador apodado como 'El Chino'?");
+INSERT INTO Pregunta_Puerta VALUES (145, "Deporte", "5", "¿En cuál de estas artes marciales se puede usar todo el cuerpo?");
 
 --  NIVEL 6 
-INSERT INTO Pregunta_Puerta VALUES (146, "Deporte", "Nivel 6", "¿Cuántos Balones de Oro tiene Pele?");
-INSERT INTO Pregunta_Puerta VALUES (147, "Deporte", "Nivel 6", "¿Cuántos Anillos de Basket tiene Michael Jordan?");
-INSERT INTO Pregunta_Puerta VALUES (148, "Deporte", "Nivel 6", "¿Cuál es la maxima distancia que se puede hacer en un torneo oficial de natación masculino?");
-INSERT INTO Pregunta_Puerta VALUES (149, "Deporte", "Nivel 6", "¿Quíen es el deportista con mas medallas de oro?");
-INSERT INTO Pregunta_Puerta VALUES (150, "Deporte", "Nivel 6", "En carrera de velocidad, ¿cuál es la máxima distancia que se puede correr?");
+INSERT INTO Pregunta_Puerta VALUES (146, "Deporte", "6", "¿Cuántos Balones de Oro tiene Pele?");
+INSERT INTO Pregunta_Puerta VALUES (147, "Deporte", "6", "¿Cuántos Anillos de Basket tiene Michael Jordan?");
+INSERT INTO Pregunta_Puerta VALUES (148, "Deporte", "6", "¿Cuál es la maxima distancia que se puede hacer en un torneo oficial de natación masculino?");
+INSERT INTO Pregunta_Puerta VALUES (149, "Deporte", "6", "¿Quíen es el deportista con mas medallas de oro?");
+INSERT INTO Pregunta_Puerta VALUES (150, "Deporte", "6", "En carrera de velocidad, ¿cuál es la máxima distancia que se puede correr?");
 
 --  NIVEL 7 
-INSERT INTO Pregunta_Puerta VALUES (151, "Deporte", "Nivel 7", "¿Además de las carreras a que otro deporte se dedico Usain Bolt?");
-INSERT INTO Pregunta_Puerta VALUES (152, "Deporte", "Nivel 7", "¿Cuál es el equipo mas perdedor de finales de la Champions League?");
-INSERT INTO Pregunta_Puerta VALUES (153, "Deporte", "Nivel 7", "¿Cuál es el jugador de Basket con mas puntos anotados?");
-INSERT INTO Pregunta_Puerta VALUES (154, "Deporte", "Nivel 7", "¿En que año se empezo a considerar un deporte el ajedrez?");
-INSERT INTO Pregunta_Puerta VALUES (155, "Deporte", "Nivel 7", "¿Cuál es el record de distancia de lazamiento de jabalina?");
+INSERT INTO Pregunta_Puerta VALUES (151, "Deporte", "7", "¿Además de las carreras a que otro deporte se dedico Usain Bolt?");
+INSERT INTO Pregunta_Puerta VALUES (152, "Deporte", "7", "¿Cuál es el equipo mas perdedor de finales de la Champions League?");
+INSERT INTO Pregunta_Puerta VALUES (153, "Deporte", "7", "¿Cuál es el jugador de Basket con mas puntos anotados?");
+INSERT INTO Pregunta_Puerta VALUES (154, "Deporte", "7", "¿En que año se empezo a considerar un deporte el ajedrez?");
+INSERT INTO Pregunta_Puerta VALUES (155, "Deporte", "7", "¿Cuál es el record de distancia de lazamiento de jabalina?");
 
 --  NIVEL 8 
-INSERT INTO Pregunta_Puerta VALUES (156, "Deporte", "Nivel 8", "¿Cuál fue el resultado de la primera final del mundo del mundial de futbol?");
-INSERT INTO Pregunta_Puerta VALUES (157, "Deporte", "Nivel 8", "¿Cuál es el partido de la NBA con mas puntos de la historia?");
-INSERT INTO Pregunta_Puerta VALUES (158, "Deporte", "Nivel 8", "¿Quíen fue el ultimo campeon de los juegos olimpicos de natacion 2020?");
-INSERT INTO Pregunta_Puerta VALUES (159, "Deporte", "Nivel 8", "¿Cuál es la velocidad mas rapida alcanzada por el ser humano?");
-INSERT INTO Pregunta_Puerta VALUES (160, "Deporte", "Nivel 8", "¿Cuál es el partido de futbol con mas goles de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (156, "Deporte", "8", "¿Cuál fue el resultado de la primera final del mundo del mundial de futbol?");
+INSERT INTO Pregunta_Puerta VALUES (157, "Deporte", "8", "¿Cuál es el partido de la NBA con mas puntos de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (158, "Deporte", "8", "¿Quíen fue el ultimo campeon de los juegos olimpicos de natacion 2020?");
+INSERT INTO Pregunta_Puerta VALUES (159, "Deporte", "8", "¿Cuál es la velocidad mas rapida alcanzada por el ser humano?");
+INSERT INTO Pregunta_Puerta VALUES (160, "Deporte", "8", "¿Cuál es el partido de futbol con mas goles de la historia?");
 
 
 
@@ -295,60 +295,60 @@ INSERT INTO Pregunta_Puerta VALUES (160, "Deporte", "Nivel 8", "¿Cuál es el pa
 
 
 --  NIVEL 1 
-INSERT INTO Pregunta_Puerta VALUES (161, "Videojuegos", "Nivel 1", "¿De qué juego es el famoso personaje 'Mario'?");
-INSERT INTO Pregunta_Puerta VALUES (162, "Videojuegos", "Nivel 1", "¿Cuál de las siguientes opciones no es una consola de videojuegos?");
-INSERT INTO Pregunta_Puerta VALUES (163, "Videojuegos", "Nivel 1", "¿Cuál de los siguientes es un videojuego?");
-INSERT INTO Pregunta_Puerta VALUES (164, "Videojuegos", "Nivel 1", "¿De que deporte trata el juego 'Pro Evolution Soccer'?");
-INSERT INTO Pregunta_Puerta VALUES (165, "Videojuegos", "Nivel 1", "¿De que color es Pikachu del juego 'Pokemon'?");
+INSERT INTO Pregunta_Puerta VALUES (161, "Videojuegos", "1", "¿De qué juego es el famoso personaje 'Mario'?");
+INSERT INTO Pregunta_Puerta VALUES (162, "Videojuegos", "1", "¿Cuál de las siguientes opciones no es una consola de videojuegos?");
+INSERT INTO Pregunta_Puerta VALUES (163, "Videojuegos", "1", "¿Cuál de los siguientes es un videojuego?");
+INSERT INTO Pregunta_Puerta VALUES (164, "Videojuegos", "1", "¿De que deporte trata el juego 'Pro Evolution Soccer'?");
+INSERT INTO Pregunta_Puerta VALUES (165, "Videojuegos", "1", "¿De que color es Pikachu del juego 'Pokemon'?");
 
 --  NIVEL 2 
-INSERT INTO Pregunta_Puerta VALUES (166, "Videojuegos", "Nivel 2", "¿Qué significan las siglas 'GTA'?");
-INSERT INTO Pregunta_Puerta VALUES (167, "Videojuegos", "Nivel 2", "¿Cómo se llama el hermano de 'Mario Bros'?");
-INSERT INTO Pregunta_Puerta VALUES (168, "Videojuegos", "Nivel 2", "¿Cómo se llama el mando de la PS4?");
-INSERT INTO Pregunta_Puerta VALUES (169, "Videojuegos", "Nivel 2", "¿Cuál de los suiguientes videojuegos es de autos de carreras?");
-INSERT INTO Pregunta_Puerta VALUES (170, "Videojuegos", "Nivel 2", "¿Cuál fue la primera consola de Playstation?");
+INSERT INTO Pregunta_Puerta VALUES (166, "Videojuegos", "2", "¿Qué significan las siglas 'GTA'?");
+INSERT INTO Pregunta_Puerta VALUES (167, "Videojuegos", "2", "¿Cómo se llama el hermano de 'Mario Bros'?");
+INSERT INTO Pregunta_Puerta VALUES (168, "Videojuegos", "2", "¿Cómo se llama el mando de la PS4?");
+INSERT INTO Pregunta_Puerta VALUES (169, "Videojuegos", "2", "¿Cuál de los suiguientes videojuegos es de autos de carreras?");
+INSERT INTO Pregunta_Puerta VALUES (170, "Videojuegos", "2", "¿Cuál fue la primera consola de Playstation?");
 
 --  NIVEL 3 
-INSERT INTO Pregunta_Puerta VALUES (171, "Videojuegos", "Nivel 3", "¿Cuál de los siguientes videojuegos fue lanzado primero?");
-INSERT INTO Pregunta_Puerta VALUES (172, "Videojuegos", "Nivel 3", "¿Cómo es el nombre del enemigo de 'Sonic'?");
-INSERT INTO Pregunta_Puerta VALUES (173, "Videojuegos", "Nivel 3", "¿Cuál de las siguientes consolas pertenece a Sony?");
-INSERT INTO Pregunta_Puerta VALUES (174, "Videojuegos", "Nivel 3", "¿Cuántos luchadores hay en 'Street Fighter II'?");
-INSERT INTO Pregunta_Puerta VALUES (175, "Videojuegos", "Nivel 3", "¿Cuál es el material de la primera espada que te dan en 'The Legend of Zelda'?");
+INSERT INTO Pregunta_Puerta VALUES (171, "Videojuegos", "3", "¿Cuál de los siguientes videojuegos fue lanzado primero?");
+INSERT INTO Pregunta_Puerta VALUES (172, "Videojuegos", "3", "¿Cómo es el nombre del enemigo de 'Sonic'?");
+INSERT INTO Pregunta_Puerta VALUES (173, "Videojuegos", "3", "¿Cuál de las siguientes consolas pertenece a Sony?");
+INSERT INTO Pregunta_Puerta VALUES (174, "Videojuegos", "3", "¿Cuántos luchadores hay en 'Street Fighter II'?");
+INSERT INTO Pregunta_Puerta VALUES (175, "Videojuegos", "3", "¿Cuál es el material de la primera espada que te dan en 'The Legend of Zelda'?");
 
 --  NIVEL 4 
-INSERT INTO Pregunta_Puerta VALUES (176, "Videojuegos", "Nivel 4", "¿De qué empresa es el videojuego 'League of legends'?");
-INSERT INTO Pregunta_Puerta VALUES (177, "Videojuegos", "Nivel 4", "¿En qué ciudad se situa el videojuego 'Resident Evil'?");
-INSERT INTO Pregunta_Puerta VALUES (178, "Videojuegos", "Nivel 4", "¿Cómo es el nombre completo del videojuego 'CS:GO'?");
-INSERT INTO Pregunta_Puerta VALUES (179, "Videojuegos", "Nivel 4", "¿Cuáles son los videojugos mas conocidos de futbol?");
-INSERT INTO Pregunta_Puerta VALUES (180, "Videojuegos", "Nivel 4", "¿Cuál es el videojuego mas conocido de basquet?");
+INSERT INTO Pregunta_Puerta VALUES (176, "Videojuegos", "4", "¿De qué empresa es el videojuego 'League of legends'?");
+INSERT INTO Pregunta_Puerta VALUES (177, "Videojuegos", "4", "¿En qué ciudad se situa el videojuego 'Resident Evil'?");
+INSERT INTO Pregunta_Puerta VALUES (178, "Videojuegos", "4", "¿Cómo es el nombre completo del videojuego 'CS:GO'?");
+INSERT INTO Pregunta_Puerta VALUES (179, "Videojuegos", "4", "¿Cuáles son los videojugos mas conocidos de futbol?");
+INSERT INTO Pregunta_Puerta VALUES (180, "Videojuegos", "4", "¿Cuál es el videojuego mas conocido de basquet?");
 
 --  NIVEL 5 
-INSERT INTO Pregunta_Puerta VALUES (181, "Videojuegos", "Nivel 5", "¿Cuántas entregas hay de el videojuego 'Uncharted'?");
-INSERT INTO Pregunta_Puerta VALUES (182, "Videojuegos", "Nivel 5", "¿Cuál de los siguientes videojuegos es de la empresa Naughty Dog?");
-INSERT INTO Pregunta_Puerta VALUES (183, "Videojuegos", "Nivel 5", "¿De qué personaje busca vengarse 'Kratos' del videojuego 'God of War'?");
-INSERT INTO Pregunta_Puerta VALUES (184, "Videojuegos", "Nivel 5", "¿Cómo se llama el protagonista de 'Halo'?");
-INSERT INTO Pregunta_Puerta VALUES (185, "Videojuegos", "Nivel 5", "¿En qué año fue lanzado 'Super Mario 64'?");
+INSERT INTO Pregunta_Puerta VALUES (181, "Videojuegos", "5", "¿Cuántas entregas hay de el videojuego 'Uncharted'?");
+INSERT INTO Pregunta_Puerta VALUES (182, "Videojuegos", "5", "¿Cuál de los siguientes videojuegos es de la empresa Naughty Dog?");
+INSERT INTO Pregunta_Puerta VALUES (183, "Videojuegos", "5", "¿De qué personaje busca vengarse 'Kratos' del videojuego 'God of War'?");
+INSERT INTO Pregunta_Puerta VALUES (184, "Videojuegos", "5", "¿Cómo se llama el protagonista de 'Halo'?");
+INSERT INTO Pregunta_Puerta VALUES (185, "Videojuegos", "5", "¿En qué año fue lanzado 'Super Mario 64'?");
 
 --  NIVEL 6 
-INSERT INTO Pregunta_Puerta VALUES (186, "Videojuegos", "Nivel 6", "¿Cuál es el nombre del mejor jugador de la historia de 'League Of Legends'?");
-INSERT INTO Pregunta_Puerta VALUES (187, "Videojuegos", "Nivel 6", "¿Cómo se llama el fundador de la compania Nintendo?");
-INSERT INTO Pregunta_Puerta VALUES (188, "Videojuegos", "Nivel 6", "¿Qué es el lag?");
-INSERT INTO Pregunta_Puerta VALUES (189, "Videojuegos", "Nivel 6", "¿Cuál de las siguientes empresas no es un estudio de videojuegos?");
-INSERT INTO Pregunta_Puerta VALUES (190, "Videojuegos", "Nivel 6", "¿Cuál fue el primer ofico de 'Mario'?");
+INSERT INTO Pregunta_Puerta VALUES (186, "Videojuegos", "6", "¿Cuál es el nombre del mejor jugador de la historia de 'League Of Legends'?");
+INSERT INTO Pregunta_Puerta VALUES (187, "Videojuegos", "6", "¿Cómo se llama el fundador de la compania Nintendo?");
+INSERT INTO Pregunta_Puerta VALUES (188, "Videojuegos", "6", "¿Qué es el lag?");
+INSERT INTO Pregunta_Puerta VALUES (189, "Videojuegos", "6", "¿Cuál de las siguientes empresas no es un estudio de videojuegos?");
+INSERT INTO Pregunta_Puerta VALUES (190, "Videojuegos", "6", "¿Cuál fue el primer ofico de 'Mario'?");
 
 --  NIVEL 7 
-INSERT INTO Pregunta_Puerta VALUES (191, "Videojuegos", "Nivel 7", "¿Cuál es el nombre del virus de la saga de videojuegos Resident Evil?");
-INSERT INTO Pregunta_Puerta VALUES (192, "Videojuegos", "Nivel 7", "¿Cuál es el videojuego mas largo de la historia?");
-INSERT INTO Pregunta_Puerta VALUES (193, "Videojuegos", "Nivel 7", "¿Cuál fue la primer consola con CD's?");
-INSERT INTO Pregunta_Puerta VALUES (194, "Videojuegos", "Nivel 7", "¿Cómo se llama el mando de la Wii?");
-INSERT INTO Pregunta_Puerta VALUES (195, "Videojuegos", "Nivel 7", "¿Cómo se llama la institución mental en la qué ocurre el videojuego 'Outlast'?");
+INSERT INTO Pregunta_Puerta VALUES (191, "Videojuegos", "7", "¿Cuál es el nombre del virus de la saga de videojuegos Resident Evil?");
+INSERT INTO Pregunta_Puerta VALUES (192, "Videojuegos", "7", "¿Cuál es el videojuego mas largo de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (193, "Videojuegos", "7", "¿Cuál fue la primer consola con CD's?");
+INSERT INTO Pregunta_Puerta VALUES (194, "Videojuegos", "7", "¿Cómo se llama el mando de la Wii?");
+INSERT INTO Pregunta_Puerta VALUES (195, "Videojuegos", "7", "¿Cómo se llama la institución mental en la qué ocurre el videojuego 'Outlast'?");
 
 --  NIVEL 8 
-INSERT INTO Pregunta_Puerta VALUES (196, "Videojuegos", "Nivel 8", "¿En cuál de las siguientes empresas trabajó Steve Jobs cuando era joven?");
-INSERT INTO Pregunta_Puerta VALUES (197, "Videojuegos", "Nivel 8", "¿Qué jugadores aparecen en la portada de 'FIFA 2004' ?");
-INSERT INTO Pregunta_Puerta VALUES (198, "Videojuegos", "Nivel 8", "¿Cuál es el juego con mas finales de la historia?");
-INSERT INTO Pregunta_Puerta VALUES (199, "Videojuegos", "Nivel 8", "¿Quién de los siguientes es considerado como uno de los padres del gaming en PC?");
-INSERT INTO Pregunta_Puerta VALUES (200, "Videojuegos", "Nivel 8", "¿Cuánto costó el desarrollo del videojuego 'The Witcher 3'?");
+INSERT INTO Pregunta_Puerta VALUES (196, "Videojuegos", "8", "¿En cuál de las siguientes empresas trabajó Steve Jobs cuando era joven?");
+INSERT INTO Pregunta_Puerta VALUES (197, "Videojuegos", "8", "¿Qué jugadores aparecen en la portada de 'FIFA 2004' ?");
+INSERT INTO Pregunta_Puerta VALUES (198, "Videojuegos", "8", "¿Cuál es el juego con mas finales de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (199, "Videojuegos", "8", "¿Quién de los siguientes es considerado como uno de los padres del gaming en PC?");
+INSERT INTO Pregunta_Puerta VALUES (200, "Videojuegos", "8", "¿Cuánto costó el desarrollo del videojuego 'The Witcher 3'?");
 
 
 
