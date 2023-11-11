@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 using TMPro;
-using System.Collections.Generic;
 
 public class mostrarDatos : MonoBehaviour
 {
@@ -28,7 +27,7 @@ public class mostrarDatos : MonoBehaviour
 
     private void Start()
     {
-        randomArray = GenerateRandomArray(arraySize, minValue, maxValue);
+        randomArray = ArrayGenerator.GenerateRandomArray(arraySize, minValue, maxValue);
         if (!dataFetched)
         {
             StartCoroutine(GetDataFromDatabase());
@@ -50,19 +49,16 @@ public class mostrarDatos : MonoBehaviour
             else
             {
                 string data = www.downloadHandler.text;
-                
-                string[] lines = data.Split('\n');      
+
+                string[] lines = data.Split('\n');
                 if (lines.Length >= 5)
                 {
                     respuestaCorrecta = lines[1].Replace("Respuesta: ", "");
-                    // Debug.Log("La respuesta correcta es: " + respuestaCorrecta);
-                    
 
                     string pregunta = lines[0].Replace("Pregunta: ", "");
                     for (int i = 1; i <= 4; i++)
                     {
                         respuestas[i - 1] = lines[i].Replace("Respuesta: ", "");
-                        // Debug.Log(respuestas[i - 1]);
                     }
 
                     preguntaText.text = pregunta;
@@ -71,47 +67,17 @@ public class mostrarDatos : MonoBehaviour
                     respuesta2Text.text = respuestas[randomArray[1]];
                     respuesta3Text.text = respuestas[randomArray[2]];
                     respuesta4Text.text = respuestas[randomArray[3]];
-                    // Debug.Log(respuestas[0]);
 
-                    for(int i = 0 ; i < respuestas.Length ; i++)
+                    for (int i = 0; i < respuestas.Length; i++)
                     {
-                        if(randomArray[i] == 0) 
+                        if (randomArray[i] == 0)
                         {
-                            correcta = i+1;
-                            //Debug.Log(correcta);
-                            // Debug.Log(respuestaCorrecta);
+                            correcta = i + 1;
                         }
                     }
-                    dataFetched = true; 
+                    dataFetched = true;
                 }
             }
         }
     }
-
-    int[] GenerateRandomArray(int size, int min, int max)
-    {
-        if (size > (max - min + 1))
-        {
-            Debug.LogError("Tamaño del array es mayor que el rango de números posibles.");
-            return null;
-        }
-
-        List<int> numbers = new List<int>();
-
-        for (int i = min; i <= max; i++)
-        {
-            numbers.Add(i);
-        }
-
-        int[] resultArray = new int[size];
-        for (int i = 0; i < size; i++)
-        {
-            int randomIndex = Random.Range(0, numbers.Count);
-            resultArray[i] = numbers[randomIndex];
-            numbers.RemoveAt(randomIndex);
-        }
-
-        return resultArray;
-    }
-    
 }
