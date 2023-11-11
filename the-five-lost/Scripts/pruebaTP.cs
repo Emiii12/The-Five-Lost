@@ -1,20 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
+// using UnityEngine.SceneManagement;
 
-public class TP : MonoBehaviour
-{
-    public int numeroEscena;
+// public class TP : MonoBehaviour
+// {
+//     public int numeroEscena;
     
-    private void OnTriggerEnter(Collider other)
-    { 
-        if (other.tag == "Player")
-        {
-            SceneManager.LoadScene(numeroEscena);
-        }
-    }
-}
+//     private void OnTriggerEnter(Collider other)
+//     { 
+//         if (other.tag == "Player")
+//         {
+//             SceneManager.LoadScene("TFL");
+//         }
+//     }
+// }
 
 // using System.Collections;
 // using System.Collections.Generic;

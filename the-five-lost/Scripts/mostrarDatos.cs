@@ -11,7 +11,7 @@ public class mostrarDatos : MonoBehaviour
     public TMP_Text respuesta3Text;
     public TMP_Text respuesta4Text;
     public TMP_Text escorrectaText;
-    private string respuestaSeleccionada;
+    
     private string respuestaCorrecta;
 
     public int correcta;
@@ -25,6 +25,8 @@ public class mostrarDatos : MonoBehaviour
 
     private bool dataFetched = false;
 
+    public static string phpURL = "http://localhost/PHP/comprobar.php?nivel=1";
+
     private void Start()
     {
         randomArray = ArrayGenerator.GenerateRandomArray(arraySize, minValue, maxValue);
@@ -36,7 +38,6 @@ public class mostrarDatos : MonoBehaviour
 
     private IEnumerator GetDataFromDatabase()
     {
-        string phpURL = "http://localhost/PHP/comprobar.php";
 
         using (UnityWebRequest www = UnityWebRequest.Get(phpURL))
         {

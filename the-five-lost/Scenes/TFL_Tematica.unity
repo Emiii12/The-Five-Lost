@@ -1049,7 +1049,7 @@ GameObject:
   - component: {fileID: 602989166}
   - component: {fileID: 602989165}
   - component: {fileID: 602989169}
-  - component: {fileID: 602989170}
+  - component: {fileID: 602989171}
   m_Layer: 0
   m_Name: TriggerRespuesta1
   m_TagString: 1
@@ -1168,7 +1168,7 @@ MonoBehaviour:
   arraySize: 4
   minValue: 0
   maxValue: 3
---- !u!114 &602989170
+--- !u!114 &602989171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

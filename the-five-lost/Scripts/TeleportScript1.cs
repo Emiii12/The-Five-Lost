@@ -9,7 +9,7 @@ public class CasaEscena : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     { 
-        if (other.tag == "player")
+        if (other.tag == "Player")
         {
             SceneManager.LoadScene(numeroEscena);
         }
