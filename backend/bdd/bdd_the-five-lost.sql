@@ -230,60 +230,60 @@ INSERT INTO Pregunta_Puerta VALUES (120, "Cultura General", "8", "¿Cuál es el 
 --  CATEGORÍA: DEPORTE  -----
 
 --  NIVEL 1 
-INSERT INTO Pregunta_Puerta VALUES (121, "Deporte", "1", "¿De qué color es la pelota clásica de basket?");
-INSERT INTO Pregunta_Puerta VALUES (122, "Deporte", "1", "¿En qué deportes se usa una raqueta?");
-INSERT INTO Pregunta_Puerta VALUES (123, "Deporte", "1", "¿Qué deporte juega Lionel Messi?");
-INSERT INTO Pregunta_Puerta VALUES (124, "Deporte", "1", "¿Por cuál deporte es conocido Michael Jordan?");
-INSERT INTO Pregunta_Puerta VALUES (125, "Deporte", "1", "¿En cuál de estos deportes hay una red en medio de la cancha?");
+INSERT INTO Pregunta_Puerta VALUES (121, "Deportes", "1", "¿De qué color es la pelota clásica de basket?");
+INSERT INTO Pregunta_Puerta VALUES (122, "Deportes", "1", "¿En qué deporte se usa una raqueta?");
+INSERT INTO Pregunta_Puerta VALUES (123, "Deportes", "1", "¿Qué deporte juega Lionel Messi?");
+INSERT INTO Pregunta_Puerta VALUES (124, "Deportes", "1", "¿Por cuál deporte es conocido Michael Jordan?");
+INSERT INTO Pregunta_Puerta VALUES (125, "Deportes", "1", "¿En cuál de estos deportes hay una red en medio de la cancha?");
 
 --  NIVEL 2 
-INSERT INTO Pregunta_Puerta VALUES (126, "Deporte", "2", "¿Cuál es el equipo del futbol europeo más famoso del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (127, "Deporte", "2", "¿Quien es corredor mas rapido del mundo?");
-INSERT INTO Pregunta_Puerta VALUES (128, "Deporte", "2", "¿Cuál es el nombre de la liga estadounidense de basket?");
-INSERT INTO Pregunta_Puerta VALUES (129, "Deporte", "2", "¿Cuáles son los 2 equipos del futbol argentino mas conocidos?");
-INSERT INTO Pregunta_Puerta VALUES (130, "Deporte", "2", "¿Cuántos pasos se puede dar en Handball sin picar el balón?");
+INSERT INTO Pregunta_Puerta VALUES (126, "Deportes", "2", "¿Cuál es el equipo del futbol europeo más famoso del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (127, "Deportes", "2", "¿Quien es corredor mas rapido del mundo?");
+INSERT INTO Pregunta_Puerta VALUES (128, "Deportes", "2", "¿Cuál es el nombre de la liga estadounidense de basket?");
+INSERT INTO Pregunta_Puerta VALUES (129, "Deportes", "2", "¿Cuáles son los 2 equipos del futbol argentino mas conocidos?");
+INSERT INTO Pregunta_Puerta VALUES (130, "Deportes", "2", "¿Cuántos pasos se puede dar en Handball sin picar el balón?");
 
 --  NIVEL 3 
-INSERT INTO Pregunta_Puerta VALUES (131, "Deporte", "3", "¿Qué deporte hace Connor McGregor?");
-INSERT INTO Pregunta_Puerta VALUES (132, "Deporte", "3", "¿Cuál de estas personas es un tenista?");
-INSERT INTO Pregunta_Puerta VALUES (133, "Deporte", "3", "¿De qué pais es el famoso exbasquetbolista Manuel Ginobili?");
-INSERT INTO Pregunta_Puerta VALUES (134, "Deporte", "3", "¿Con qué partes del cuerpo se puedo jugar al voley?");
-INSERT INTO Pregunta_Puerta VALUES (135, "Deporte", "3", "¿Dónde se jugó el último mundial de Futbol 2022?");
+INSERT INTO Pregunta_Puerta VALUES (131, "Deportes", "3", "¿Qué deporte hace Connor McGregor?");
+INSERT INTO Pregunta_Puerta VALUES (132, "Deportes", "3", "¿Cuál de estas personas es un tenista?");
+INSERT INTO Pregunta_Puerta VALUES (133, "Deportes", "3", "¿De qué pais es el famoso exbasquetbolista Manuel Ginobili?");
+INSERT INTO Pregunta_Puerta VALUES (134, "Deportes", "3", "¿Con qué partes del cuerpo se puedo jugar al voley?");
+INSERT INTO Pregunta_Puerta VALUES (135, "Deportes", "3", "¿Dónde se jugó el último mundial de Futbol 2022?");
 
 --  NIVEL 4 
-INSERT INTO Pregunta_Puerta VALUES (136, "Deporte", "4", "¿De qué pais es el jugador de futbol Dani Alves?");
-INSERT INTO Pregunta_Puerta VALUES (137, "Deporte", "4", "¿Cuantos pasos sin picar el balon se pueden hacer en el Basket?");
-INSERT INTO Pregunta_Puerta VALUES (138, "Deporte", "4", "¿Cuánto mide la cancha de voley?");
-INSERT INTO Pregunta_Puerta VALUES (139, "Deporte", "4", "¿Cuántas piezas hay en el ajedrez?");
-INSERT INTO Pregunta_Puerta VALUES (140, "Deporte", "4", "¿Cuatos años tiene Rafa Nadal?");
+INSERT INTO Pregunta_Puerta VALUES (136, "Deportes", "4", "¿De qué pais es el jugador de futbol Dani Alves?");
+INSERT INTO Pregunta_Puerta VALUES (137, "Deportes", "4", "¿Cuantos pasos sin picar el balon se pueden hacer en el Basket?");
+INSERT INTO Pregunta_Puerta VALUES (138, "Deportes", "4", "¿Cuánto mide la cancha de voley?");
+INSERT INTO Pregunta_Puerta VALUES (139, "Deportes", "4", "¿Cuántas piezas hay en el ajedrez?");
+INSERT INTO Pregunta_Puerta VALUES (140, "Deportes", "4", "¿Cuatos años tiene Rafa Nadal?");
 
 --  NIVEL 5 
-INSERT INTO Pregunta_Puerta VALUES (141, "Deporte", "5", "¿En qué años salio campeon del mundial de futbol la seleccion Argentina?");
-INSERT INTO Pregunta_Puerta VALUES (142, "Deporte", "5", "¿Cuál es el maximo anotador de la NBA?");
-INSERT INTO Pregunta_Puerta VALUES (143, "Deporte", "5", "¿Cuál es el equipo con más Copas Libertadores?");
-INSERT INTO Pregunta_Puerta VALUES (144, "Deporte", "5", "¿Cuál es el apellido del famoso boxeador apodado como 'El Chino'?");
-INSERT INTO Pregunta_Puerta VALUES (145, "Deporte", "5", "¿En cuál de estas artes marciales se puede usar todo el cuerpo?");
+INSERT INTO Pregunta_Puerta VALUES (141, "Deportes", "5", "¿En qué años salio campeon del mundial de futbol la seleccion Argentina?");
+INSERT INTO Pregunta_Puerta VALUES (142, "Deportes", "5", "¿Cuál es el maximo anotador de la NBA?");
+INSERT INTO Pregunta_Puerta VALUES (143, "Deportes", "5", "¿Cuál es el equipo con más Copas Libertadores?");
+INSERT INTO Pregunta_Puerta VALUES (144, "Deportes", "5", "¿Cuál es el apellido del famoso boxeador apodado como 'El Chino'?");
+INSERT INTO Pregunta_Puerta VALUES (145, "Deportes", "5", "¿En cuál de estas artes marciales se puede usar todo el cuerpo?");
 
 --  NIVEL 6 
-INSERT INTO Pregunta_Puerta VALUES (146, "Deporte", "6", "¿Cuántos Balones de Oro tiene Pele?");
-INSERT INTO Pregunta_Puerta VALUES (147, "Deporte", "6", "¿Cuántos Anillos de Basket tiene Michael Jordan?");
-INSERT INTO Pregunta_Puerta VALUES (148, "Deporte", "6", "¿Cuál es la maxima distancia que se puede hacer en un torneo oficial de natación masculino?");
-INSERT INTO Pregunta_Puerta VALUES (149, "Deporte", "6", "¿Quíen es el deportista con mas medallas de oro?");
-INSERT INTO Pregunta_Puerta VALUES (150, "Deporte", "6", "En carrera de velocidad, ¿cuál es la máxima distancia que se puede correr?");
+INSERT INTO Pregunta_Puerta VALUES (146, "Deportes", "6", "¿Cuántos Balones de Oro tiene Pele?");
+INSERT INTO Pregunta_Puerta VALUES (147, "Deportes", "6", "¿Cuántos Anillos de Basket tiene Michael Jordan?");
+INSERT INTO Pregunta_Puerta VALUES (148, "Deportes", "6", "¿Cuál es la maxima distancia que se puede hacer en un torneo oficial de natación masculino?");
+INSERT INTO Pregunta_Puerta VALUES (149, "Deportes", "6", "¿Quíen es el deportista con mas medallas de oro?");
+INSERT INTO Pregunta_Puerta VALUES (150, "Deportes", "6", "En carrera de velocidad, ¿cuál es la máxima distancia que se puede correr?");
 
 --  NIVEL 7 
-INSERT INTO Pregunta_Puerta VALUES (151, "Deporte", "7", "¿Además de las carreras a que otro deporte se dedico Usain Bolt?");
-INSERT INTO Pregunta_Puerta VALUES (152, "Deporte", "7", "¿Cuál es el equipo mas perdedor de finales de la Champions League?");
-INSERT INTO Pregunta_Puerta VALUES (153, "Deporte", "7", "¿Cuál es el jugador de Basket con mas puntos anotados?");
-INSERT INTO Pregunta_Puerta VALUES (154, "Deporte", "7", "¿En que año se empezo a considerar un deporte el ajedrez?");
-INSERT INTO Pregunta_Puerta VALUES (155, "Deporte", "7", "¿Cuál es el record de distancia de lazamiento de jabalina?");
+INSERT INTO Pregunta_Puerta VALUES (151, "Deportes", "7", "¿Además de las carreras a que otro deporte se dedico Usain Bolt?");
+INSERT INTO Pregunta_Puerta VALUES (152, "Deportes", "7", "¿Cuál es el equipo mas perdedor de finales de la Champions League?");
+INSERT INTO Pregunta_Puerta VALUES (153, "Deportes", "7", "¿Cuál es el jugador de Basket con mas puntos anotados?");
+INSERT INTO Pregunta_Puerta VALUES (154, "Deportes", "7", "¿En que año se empezo a considerar un deporte el ajedrez?");
+INSERT INTO Pregunta_Puerta VALUES (155, "Deportes", "7", "¿Cuál es el record de distancia de lazamiento de jabalina?");
 
 --  NIVEL 8 
-INSERT INTO Pregunta_Puerta VALUES (156, "Deporte", "8", "¿Cuál fue el resultado de la primera final del mundo del mundial de futbol?");
-INSERT INTO Pregunta_Puerta VALUES (157, "Deporte", "8", "¿Cuál es el partido de la NBA con mas puntos de la historia?");
-INSERT INTO Pregunta_Puerta VALUES (158, "Deporte", "8", "¿Quíen fue el ultimo campeon de los juegos olimpicos de natacion 2020?");
-INSERT INTO Pregunta_Puerta VALUES (159, "Deporte", "8", "¿Cuál es la velocidad mas rapida alcanzada por el ser humano?");
-INSERT INTO Pregunta_Puerta VALUES (160, "Deporte", "8", "¿Cuál es el partido de futbol con mas goles de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (156, "Deportes", "8", "¿Cuál fue el resultado de la primera final del mundo del mundial de futbol?");
+INSERT INTO Pregunta_Puerta VALUES (157, "Deportes", "8", "¿Cuál es el partido de la NBA con mas puntos de la historia?");
+INSERT INTO Pregunta_Puerta VALUES (158, "Deportes", "8", "¿Quíen fue el ultimo campeon de los juegos olimpicos de natacion 2020?");
+INSERT INTO Pregunta_Puerta VALUES (159, "Deportes", "8", "¿Cuál es la velocidad mas rapida alcanzada por el ser humano?");
+INSERT INTO Pregunta_Puerta VALUES (160, "Deportes", "8", "¿Cuál es el partido de futbol con mas goles de la historia?");
 
 
 
@@ -1191,7 +1191,7 @@ INSERT INTO Respuesta_Pregunta VALUES (480, 120, "Tiburon", false);
 
 --
 
---  DEPORTE
+--  Deportes
 
 --  NIVEL 1
 
