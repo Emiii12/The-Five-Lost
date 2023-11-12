@@ -12,10 +12,11 @@ if ($conn->connect_error) {
 
 // Obtener el nivel actual del jugador desde Unity
 $nivelActual = $_GET['nivel'];
+$tematica = $_GET['tematica'];
 
 $sql = "SELECT pp.cod_pregunta, pp.pregunta, rp.respuesta, rp.correcto, pp.nivel FROM pregunta_puerta pp
         INNER JOIN respuesta_pregunta rp ON pp.cod_pregunta = rp.cod_pregunta
-        WHERE tematica = 'Entretenimiento' AND nivel = '$nivelActual' ORDER BY RAND() LIMIT 1;";
+        WHERE tematica = '$tematica' AND nivel = '$nivelActual' ORDER BY RAND() LIMIT 1;";
 
 $result = $conn->query($sql);
 
