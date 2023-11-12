@@ -437,7 +437,7 @@ INSERT INTO Respuesta_Pregunta VALUES (43, 11, "Mario", false);
 INSERT INTO Respuesta_Pregunta VALUES (44, 11, "Matias", false);
 
 -- PREGUNTA 2
-INSERT INTO Respuesta_Pregunta VALUES (45, 12, "Todas las anteriores", true);
+INSERT INTO Respuesta_Pregunta VALUES (45, 12, "Todas", true);
 INSERT INTO Respuesta_Pregunta VALUES (46, 12, "The Last Of us", false);
 INSERT INTO Respuesta_Pregunta VALUES (47, 12, "Uncharted", false);
 INSERT INTO Respuesta_Pregunta VALUES (48, 12, "Halo", false);
@@ -488,7 +488,7 @@ INSERT INTO Respuesta_Pregunta VALUES (75, 19, "Gravity Falls", false);
 INSERT INTO Respuesta_Pregunta VALUES (76, 19, "Hora de Aventura", false);
 
 -- PREGUNTA 5
-INSERT INTO Respuesta_Pregunta VALUES (77, 20, "Todas las anteriores", true);
+INSERT INTO Respuesta_Pregunta VALUES (77, 20, "Todas", true);
 INSERT INTO Respuesta_Pregunta VALUES (78, 20, "Las Crónicas de Narnia: El León, La Bruja y El Ropero", false);
 INSERT INTO Respuesta_Pregunta VALUES (79, 20, "Cenicienta", false);
 INSERT INTO Respuesta_Pregunta VALUES (80, 20, "Maléfica", false);
@@ -713,7 +713,7 @@ INSERT INTO Respuesta_Pregunta VALUES (203, 51, "Baby", false);
 INSERT INTO Respuesta_Pregunta VALUES (204, 51, "Shape of you", false);
 
 -- PREGUNTA 2
-INSERT INTO Respuesta_Pregunta VALUES (205, 52, "Todas las anteriores", true);
+INSERT INTO Respuesta_Pregunta VALUES (205, 52, "Todas", true);
 INSERT INTO Respuesta_Pregunta VALUES (206, 52, "Tupac", false);
 INSERT INTO Respuesta_Pregunta VALUES (207, 52, "Kendrick Lamar", false);
 INSERT INTO Respuesta_Pregunta VALUES (208, 52, "Eminem", false);
@@ -1018,7 +1018,7 @@ INSERT INTO Respuesta_Pregunta VALUES (380, 95, "Oro", false);
 --  NIVEL 4
 
 -- PREGUNTA 1
-INSERT INTO Respuesta_Pregunta VALUES (381, 96, "Todos los anteriores", true);
+INSERT INTO Respuesta_Pregunta VALUES (381, 96, "Todos", true);
 INSERT INTO Respuesta_Pregunta VALUES (382, 96, "José de San Martín", false);
 INSERT INTO Respuesta_Pregunta VALUES (383, 96, "Simón Bolívar", false);
 INSERT INTO Respuesta_Pregunta VALUES (384, 96, "Thomas Cochrane", false);
@@ -1552,7 +1552,7 @@ INSERT INTO Respuesta_Pregunta VALUES (688, 172, "Tails", false);
 INSERT INTO Respuesta_Pregunta VALUES (689, 173, "PS4", true);
 INSERT INTO Respuesta_Pregunta VALUES (690, 173, "Xbox One", false);
 INSERT INTO Respuesta_Pregunta VALUES (691, 173, "Nintendo Switch", false);
-INSERT INTO Respuesta_Pregunta VALUES (692, 173, "Ninguna de las anteriores", false);
+INSERT INTO Respuesta_Pregunta VALUES (692, 173, "Ninguna", false);
 
 -- PREGUNTA 4
 INSERT INTO Respuesta_Pregunta VALUES (693, 174, "12", true);
