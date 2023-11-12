@@ -88,7 +88,7 @@ INSERT INTO Pregunta_Puerta VALUES (30, "Entretenimiento", "6", "¿De qué país
 --  NIVEL 7
 INSERT INTO Pregunta_Puerta VALUES (31, "Entretenimiento", "7", "¿Cuál es el manga más vendido de la historia?");
 INSERT INTO Pregunta_Puerta VALUES (32, "Entretenimiento", "7", "¿En qué año comenzó a emitirse la primera temporada de 'Los Simpson'?");
-INSERT INTO Pregunta_Puerta VALUES (33, "Entretenimiento", "7", "¿Quién de los siguientes actores protagonizó un músical y fue nominado al Oscar?");
+INSERT INTO Pregunta_Puerta VALUES (33, "Entretenimiento", "7", "¿Quién de los siguientes actores protagonizó un musical y fue nominado al Oscar?");
 INSERT INTO Pregunta_Puerta VALUES (34, "Entretenimiento", "7", "¿Qué actor no interpretó a Batman en el cine?");
 INSERT INTO Pregunta_Puerta VALUES (35, "Entretenimiento", "7", "¿Cuántos Oscar tiene Argentina?");
 
@@ -103,63 +103,63 @@ INSERT INTO Pregunta_Puerta VALUES (40, "Entretenimiento", "8", "¿Cuál es el p
 
 
 
---  CATEGORÍA: MÚSICA  -----
+--  CATEGORÍA: Musica  -----
 
 --  NIVEL 1 
-INSERT INTO Pregunta_Puerta VALUES (41, "Música", "1", "¿Cual de los siguientes es musico?");
-INSERT INTO Pregunta_Puerta VALUES (42, "Música", "1", "¿Cual de los siguientes no es musico?");
-INSERT INTO Pregunta_Puerta VALUES (43, "Música", "1", "¿Qué artista musical es argentino?");
-INSERT INTO Pregunta_Puerta VALUES (44, "Música", "1", "¿Cuál de las siguientes es una nota musical?");
-INSERT INTO Pregunta_Puerta VALUES (45, "Música", "1", "¿Cuál de estas es una canción?");
+INSERT INTO Pregunta_Puerta VALUES (41, "Musica", "1", "¿Cual de los siguientes es musico?");
+INSERT INTO Pregunta_Puerta VALUES (42, "Musica", "1", "¿Cual de los siguientes no es musico?");
+INSERT INTO Pregunta_Puerta VALUES (43, "Musica", "1", "¿Qué artista musical es argentino?");
+INSERT INTO Pregunta_Puerta VALUES (44, "Musica", "1", "¿Cuál de las siguientes es una nota musical?");
+INSERT INTO Pregunta_Puerta VALUES (45, "Musica", "1", "¿Cuál de estas es una canción?");
 
 --  NIVEL 2 
-INSERT INTO Pregunta_Puerta VALUES (46, "Música", "2", "¿Cuál es un instrumento de cuerda?");
-INSERT INTO Pregunta_Puerta VALUES (47, "Música", "2", "¿Quién es Bizarrap?");
-INSERT INTO Pregunta_Puerta VALUES (48, "Música", "2", "¿Cuál de los siguientes NO es un disco?");
-INSERT INTO Pregunta_Puerta VALUES (49, "Música", "2", "¿Cuál de las siguientes es una artista musical?");
-INSERT INTO Pregunta_Puerta VALUES (50, "Música", "2", "¿Cuál de los siguientes músicos salió de una serie infantil?");
+INSERT INTO Pregunta_Puerta VALUES (46, "Musica", "2", "¿Cuál es un instrumento de cuerda?");
+INSERT INTO Pregunta_Puerta VALUES (47, "Musica", "2", "¿Quién es Bizarrap?");
+INSERT INTO Pregunta_Puerta VALUES (48, "Musica", "2", "¿Cuál de los siguientes NO es un disco?");
+INSERT INTO Pregunta_Puerta VALUES (49, "Musica", "2", "¿Cuál de las siguientes es una artista musical?");
+INSERT INTO Pregunta_Puerta VALUES (50, "Musica", "2", "¿Cuál de los siguientes músicos salió de una serie infantil?");
 
 --  NIVEL 3 
-INSERT INTO Pregunta_Puerta VALUES (51, "Música", "3", "¿Cuál es la canción más escuchada históricamente?");
-INSERT INTO Pregunta_Puerta VALUES (52, "Música", "3", "¿Cuál de los siguientes es rapero?");
-INSERT INTO Pregunta_Puerta VALUES (53, "Música", "3", "¿Qué artista musical a su vez mantuvo una carrera actoral?");
-INSERT INTO Pregunta_Puerta VALUES (54, "Música", "3", "¿Cuál de los siguientes es un artista español?");
-INSERT INTO Pregunta_Puerta VALUES (55, "Música", "3", "¿Cuál de los siguientes NO es un genero musical?");
+INSERT INTO Pregunta_Puerta VALUES (51, "Musica", "3", "¿Cuál es la canción más escuchada históricamente?");
+INSERT INTO Pregunta_Puerta VALUES (52, "Musica", "3", "¿Cuál de los siguientes es rapero?");
+INSERT INTO Pregunta_Puerta VALUES (53, "Musica", "3", "¿Qué artista musical a su vez mantuvo una carrera actoral?");
+INSERT INTO Pregunta_Puerta VALUES (54, "Musica", "3", "¿Cuál de los siguientes es un artista español?");
+INSERT INTO Pregunta_Puerta VALUES (55, "Musica", "3", "¿Cuál de los siguientes NO es un genero musical?");
 
 --  NIVEL 4 
-INSERT INTO Pregunta_Puerta VALUES (56, "Música", "4", "¿Cuál de los siguientes es un artista emergente?");
-INSERT INTO Pregunta_Puerta VALUES (57, "Música", "4", "¿Cuál de las siguientes canciones es originalmente de Bad Bunny?");
-INSERT INTO Pregunta_Puerta VALUES (58, "Música", "4", "¿De qué artista es la canción Bohemian Rhapsody?");
-INSERT INTO Pregunta_Puerta VALUES (59, "Música", "4", "¿De qué artista es la canción Billie jean?");
-INSERT INTO Pregunta_Puerta VALUES (60, "Música", "4", "¿Cuál de las siguientes no es una banda musical?");
+INSERT INTO Pregunta_Puerta VALUES (56, "Musica", "4", "¿Cuál de los siguientes es un artista emergente?");
+INSERT INTO Pregunta_Puerta VALUES (57, "Musica", "4", "¿Cuál de las siguientes canciones es originalmente de Bad Bunny?");
+INSERT INTO Pregunta_Puerta VALUES (58, "Musica", "4", "¿De qué artista es la canción Bohemian Rhapsody?");
+INSERT INTO Pregunta_Puerta VALUES (59, "Musica", "4", "¿De qué artista es la canción Billie jean?");
+INSERT INTO Pregunta_Puerta VALUES (60, "Musica", "4", "¿Cuál de las siguientes no es una banda musical?");
 
 --  NIVEL 5 
-INSERT INTO Pregunta_Puerta VALUES (61, "Música", "5", "¿Qué artista se dio a conocer gracias a sus 'Sessions'?");
-INSERT INTO Pregunta_Puerta VALUES (62, "Música", "5", "¿En cuál de los siguientes Géneros es pionera la Argentina?");
-INSERT INTO Pregunta_Puerta VALUES (63, "Música", "5", "¿En cuál de los siguientes Géneros es pionera España?");
-INSERT INTO Pregunta_Puerta VALUES (64, "Música", "5", "¿Dónde fue descubierto Justin Bieber?");
-INSERT INTO Pregunta_Puerta VALUES (65, "Música", "5", "¿Cuál es la famosa banda de K-pop?");
+INSERT INTO Pregunta_Puerta VALUES (61, "Musica", "5", "¿Qué artista se dio a conocer gracias a sus 'Sessions'?");
+INSERT INTO Pregunta_Puerta VALUES (62, "Musica", "5", "¿En cuál de los siguientes Géneros es pionera la Argentina?");
+INSERT INTO Pregunta_Puerta VALUES (63, "Musica", "5", "¿En cuál de los siguientes Géneros es pionera España?");
+INSERT INTO Pregunta_Puerta VALUES (64, "Musica", "5", "¿Dónde fue descubierto Justin Bieber?");
+INSERT INTO Pregunta_Puerta VALUES (65, "Musica", "5", "¿Cuál es la famosa banda de K-pop?");
 
 --  NIVEL 6 
-INSERT INTO Pregunta_Puerta VALUES (66, "Música", "6", "¿Quién es llamado el rey del rock?");
-INSERT INTO Pregunta_Puerta VALUES (67, "Música", "6", "Continúe la siguiente canción de Air Bag: Yo sé que algunas veces…");
-INSERT INTO Pregunta_Puerta VALUES (68, "Música", "6", "¿Con quien hace Justin Bieber la canción ‘Stay’?");
-INSERT INTO Pregunta_Puerta VALUES (69, "Música", "6", "¿De qué arista es la canción 'La Chica Del Bikini Azul'?");
-INSERT INTO Pregunta_Puerta VALUES (70, "Música", "6", "¿Qué pasa en el videoclip de Michael Jackson en ‘Thriller’?");
+INSERT INTO Pregunta_Puerta VALUES (66, "Musica", "6", "¿Quién es llamado el rey del rock?");
+INSERT INTO Pregunta_Puerta VALUES (67, "Musica", "6", "Continúe la siguiente canción de Air Bag: Yo sé que algunas veces…");
+INSERT INTO Pregunta_Puerta VALUES (68, "Musica", "6", "¿Con quien hace Justin Bieber la canción ‘Stay’?");
+INSERT INTO Pregunta_Puerta VALUES (69, "Musica", "6", "¿De qué arista es la canción 'La Chica Del Bikini Azul'?");
+INSERT INTO Pregunta_Puerta VALUES (70, "Musica", "6", "¿Qué pasa en el videoclip de Michael Jackson en ‘Thriller’?");
 
 --  NIVEL 7 
-INSERT INTO Pregunta_Puerta VALUES (71, "Música", "7", "¿Cuántas 'Sessions' tiene el productor bizarrap actualmente?");
-INSERT INTO Pregunta_Puerta VALUES (72, "Música", "7", "¿Cuándo nació el rap?");
-INSERT INTO Pregunta_Puerta VALUES (73, "Música", "7", "¿Cuándo nace el reggaetón?");
-INSERT INTO Pregunta_Puerta VALUES (74, "Música", "7", "¿De donde es nativo Luis Miguel?");
-INSERT INTO Pregunta_Puerta VALUES (75, "Música", "7", "¿En qué época nace ‘Ludwig van Beethoven’?");
+INSERT INTO Pregunta_Puerta VALUES (71, "Musica", "7", "¿Cuántas 'Sessions' tiene el productor bizarrap actualmente?");
+INSERT INTO Pregunta_Puerta VALUES (72, "Musica", "7", "¿Cuándo nació el rap?");
+INSERT INTO Pregunta_Puerta VALUES (73, "Musica", "7", "¿Cuándo nace el reggaetón?");
+INSERT INTO Pregunta_Puerta VALUES (74, "Musica", "7", "¿De donde es nativo Luis Miguel?");
+INSERT INTO Pregunta_Puerta VALUES (75, "Musica", "7", "¿En qué época nace ‘Ludwig van Beethoven’?");
 
 --  NIVEL 8 
-INSERT INTO Pregunta_Puerta VALUES (76, "Música", "8", "¿Quién es el artista mas escuchado del mundo en Spotify?");
-INSERT INTO Pregunta_Puerta VALUES (77, "Música", "8", "¿Qué artista tiene el récord de Grammys ganados?");
-INSERT INTO Pregunta_Puerta VALUES (78, "Música", "8", "¿A qué año se remontan los primeros instrumentos musicales de la humanidad?");
-INSERT INTO Pregunta_Puerta VALUES (79, "Música", "8", "¿A qué edad fallece Michael Jackson?");
-INSERT INTO Pregunta_Puerta VALUES (80, "Música", "8", "¿En que año se separan los Beatles?");
+INSERT INTO Pregunta_Puerta VALUES (76, "Musica", "8", "¿Quién es el artista mas escuchado del mundo en Spotify?");
+INSERT INTO Pregunta_Puerta VALUES (77, "Musica", "8", "¿Qué artista tiene el récord de Grammys ganados?");
+INSERT INTO Pregunta_Puerta VALUES (78, "Musica", "8", "¿A qué año se remontan los primeros instrumentos musicales de la humanidad?");
+INSERT INTO Pregunta_Puerta VALUES (79, "Musica", "8", "¿A qué edad fallece Michael Jackson?");
+INSERT INTO Pregunta_Puerta VALUES (80, "Musica", "8", "¿En que año se separan los Beatles?");
 
 
 
