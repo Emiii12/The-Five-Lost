@@ -10,7 +10,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Obtener el nivel actual del jugador desde Unity
 $nivelActual = $_GET['nivel'];
 $tematica = $_GET['tematica'];
 

@@ -446,7 +446,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escorrectaText: {fileID: 1795989360}
   mostrarDatos: {fileID: 602989169}
-  manejadorCubo: {fileID: 0}
 --- !u!1 &225420506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,7 +1036,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escorrectaText: {fileID: 1795989360}
   mostrarDatos: {fileID: 602989169}
-  manejadorCubo: {fileID: 0}
 --- !u!1 &602989163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1050,6 @@ GameObject:
   - component: {fileID: 602989165}
   - component: {fileID: 602989169}
   - component: {fileID: 602989171}
-  - component: {fileID: 602989172}
   m_Layer: 0
   m_Name: TriggerRespuesta1
   m_TagString: 1
@@ -1166,7 +1163,6 @@ MonoBehaviour:
   respuesta2Text: {fileID: 947810734}
   respuesta3Text: {fileID: 1595960389}
   respuesta4Text: {fileID: 2012933962}
-  escorrectaText: {fileID: 1795989360}
   correcta: 0
   arraySize: 4
   minValue: 0
@@ -1185,21 +1181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escorrectaText: {fileID: 1795989360}
   mostrarDatos: {fileID: 602989169}
-  manejadorCubo: {fileID: 602989172}
---- !u!114 &602989172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 602989163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca8a3fa2c2b39964ba32ef0c274fc206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cuboPrefab: {fileID: 8181840041909058556, guid: 769c2d4dc4eae2e44837c47cf75552e0, type: 3}
-  cuboSpawnPosition: {x: -44.11, y: 1.25391, z: 7.01}
 --- !u!1 &612267122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,7 +1553,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   escorrectaText: {fileID: 1795989360}
   mostrarDatos: {fileID: 602989169}
-  manejadorCubo: {fileID: 0}
 --- !u!1001 &837790774
 PrefabInstance:
   m_ObjectHideFlags: 0
