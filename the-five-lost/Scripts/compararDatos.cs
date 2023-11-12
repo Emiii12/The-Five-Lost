@@ -44,7 +44,7 @@ public class compararDatos : MonoBehaviour
                 return;
             }
 
-            if (nivelActual == 2)
+            if (nivelActual == 8)
             {
                 SceneManager.LoadScene(nombreEscenaPrincipal);
                 nivelActual = 1;
