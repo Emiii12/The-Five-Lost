@@ -33,9 +33,9 @@ CREATE TABLE Respuesta_Pregunta (
 --  CREACIÓN DE LA TABLA CATEGORÍA 
 
 INSERT INTO Categoria VALUES ("Entretenimiento");
-INSERT INTO Categoria VALUES ("Música");
+INSERT INTO Categoria VALUES ("Musica");
 INSERT INTO Categoria VALUES ("Cultura General");
-INSERT INTO Categoria VALUES ("Deporte");
+INSERT INTO Categoria VALUES ("Deportes");
 INSERT INTO Categoria VALUES ("Videojuegos");
 
 
@@ -93,7 +93,7 @@ INSERT INTO Pregunta_Puerta VALUES (34, "Entretenimiento", "7", "¿Qué actor no
 INSERT INTO Pregunta_Puerta VALUES (35, "Entretenimiento", "7", "¿Cuántos Oscar tiene Argentina?");
 
 --  NIVEL 8
-INSERT INTO Pregunta_Puerta VALUES (36, "Entretenimiento", "8", "¿Qué cantante hizo la banda sonora de la versión live action de El Rey Leon?");
+INSERT INTO Pregunta_Puerta VALUES (36, "Entretenimiento", "8", "¿A qué edad falleció Stan Lee?");
 INSERT INTO Pregunta_Puerta VALUES (37, "Entretenimiento", "8", "¿Cuál fue la primera película de Walt Disney?");
 INSERT INTO Pregunta_Puerta VALUES (38, "Entretenimiento", "8", "¿Qué actor fue aplaudido durante 6 minutos seguidos?");
 INSERT INTO Pregunta_Puerta VALUES (39, "Entretenimiento", "8", "¿Qué obra cinematográfica ganó más Oscar? ");
@@ -398,8 +398,8 @@ INSERT INTO Respuesta_Pregunta VALUES (20, 5, "Una insignia", false);
 --  NIVEL 2
 
 -- PREGUNTA 1
-INSERT INTO Respuesta_Pregunta VALUES (21, 6, "El gato", true);
-INSERT INTO Respuesta_Pregunta VALUES (22, 6, "El ratón", false);
+INSERT INTO Respuesta_Pregunta VALUES (21, 6, "El ratón", true);
+INSERT INTO Respuesta_Pregunta VALUES (22, 6, "El gato", false);
 INSERT INTO Respuesta_Pregunta VALUES (23, 6, "La mujer", false);
 INSERT INTO Respuesta_Pregunta VALUES (24, 6, "El señor", false);
 
@@ -504,8 +504,8 @@ INSERT INTO Respuesta_Pregunta VALUES (84, 21, "Una serie", false);
 
 -- PREGUNTA 2
 INSERT INTO Respuesta_Pregunta VALUES (85, 22, "Charles Perrault", true);
-INSERT INTO Respuesta_Pregunta VALUES (86, 22, "Aristóteles", false);
-INSERT INTO Respuesta_Pregunta VALUES (87, 22, "Vincent Van Gogh", false);
+INSERT INTO Respuesta_Pregunta VALUES (86, 22, "Maria Elena Walsh", false);
+INSERT INTO Respuesta_Pregunta VALUES (87, 22, "William Shakespeare", false);
 INSERT INTO Respuesta_Pregunta VALUES (88, 22, "Pablo Picasso", false);
 
 -- PREGUNTA 3
@@ -596,10 +596,10 @@ INSERT INTO Respuesta_Pregunta VALUES (140, 35, "cero", false);
 --  NIVEL 8
 
 -- PREGUNTA 1
-INSERT INTO Respuesta_Pregunta VALUES (141, 36, "Beyoncé", true);
-INSERT INTO Respuesta_Pregunta VALUES (142, 36, "Rihanna", false);
-INSERT INTO Respuesta_Pregunta VALUES (143, 36, "Sia", false);
-INSERT INTO Respuesta_Pregunta VALUES (144, 36, "Adele", false);
+INSERT INTO Respuesta_Pregunta VALUES (141, 36, "95 años", true);
+INSERT INTO Respuesta_Pregunta VALUES (142, 36, "96 años", false);
+INSERT INTO Respuesta_Pregunta VALUES (143, 36, "97 años", false);
+INSERT INTO Respuesta_Pregunta VALUES (144, 36, "94 años", false);
 
 -- PREGUNTA 2
 INSERT INTO Respuesta_Pregunta VALUES (145, 37, "Blanca Nieves y los Siete Enanitos", true);
@@ -643,7 +643,7 @@ INSERT INTO Respuesta_Pregunta VALUES (160, 40, "España", false);
 -- PREGUNTA 1
 INSERT INTO Respuesta_Pregunta VALUES (161, 41, "Michael Jackson", true);
 INSERT INTO Respuesta_Pregunta VALUES (162, 41, "Lionel Messi", false);
-INSERT INTO Respuesta_Pregunta VALUES (163, 41, "Michael Jackson", false);
+INSERT INTO Respuesta_Pregunta VALUES (163, 41, "Vladimir Putin", false);
 INSERT INTO Respuesta_Pregunta VALUES (164, 41, "Elon Musk", false);
 
 -- PREGUNTA 2
